@@ -1,0 +1,22 @@
+
+<entry id='82'>
+   <autor tipo='depoente'>Maria Celeste de Oliveira Pereira</autor>
+   <autor tipo='entrevistadores'>Daniela Cunha, Rosali Henriques, Sara Silva
+		  e Sónia Moreira</autor>
+   <autor tipo='transcritor'>Sónia Moreira</autor>
+   <data>2000-09-22</data>
+   <nascimento>
+      <data>1928-12-05</data>
+      <onde>Afurada</onde>
+   </nascimento>
+   <profissao>peixeira</profissao>
+   <projecto>Projecto Afurada</projecto>
+   <relations>
+      <rel tipo='IOF'>história de vida</rel>
+      <rel tipo='profissao'>peixeira</rel>
+   </relations>
+   <tipo>hv</tipo>
+   <title>História de vida- Maria Celeste de Oliveira Pereira</title>
+   <url>82.bi.html</url>
+   <versao>2000-10-13</versao>
+</entry>

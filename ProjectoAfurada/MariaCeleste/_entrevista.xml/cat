@@ -1,0 +1,70 @@
+
+<entry id='81'>
+   <autor tipo='depoente'>Maria Celeste de Oliveira Pereira</autor>
+   <autor tipo='entrevistadores'>Daniela Cunha, Rosali Henriques, Sara Silva
+		  e Sónia Moreira</autor>
+   <autor tipo='transcritor'>Sónia Moreira</autor>
+   <biografia>Maria Celeste de Oliveira Pereira, nasceu na Afurada, a 5 de
+		  Dezembro de 1928. Oriunda de uma família de pescadores cedo começou a
+		  trabalhar para ajudar no sustento da casa. Aos 10 anos foi acartar pedra para
+		  as obras e mais tarde com as irmãs foi vender peixe de cidade em cidade.
+		  Não teve tempo para frequentar a escola. Não sabe ler nem escrever.
+		  Depois do casamento com um pescador, começou a ter frota própria.
+		  É viúva e tem seis filhos. É a proprietária do barco
+		  "José Dias" governado pelos filhos. </biografia>
+   <data>2000-09-22</data>
+   <nascimento>
+      <data>1928-12-05</data>
+      <onde>Afurada</onde>
+   </nascimento>
+   <profissao>peixeira</profissao>
+   <projecto>Projecto Afurada</projecto>
+   <relations>
+      <rel tipo='IOF'>história de vida</rel>
+      <rel tipo='profissao'>peixeira</rel>
+   </relations>
+   <subhistorias url='81.1.html' id='81.1'>Pagar uma multa por andar descalça</subhistorias>
+   <subhistorias url='81.2.html' id='81.2'>Casamento falado</subhistorias>
+   <subhistorias url='81.3.html' id='81.3'>O temporal</subhistorias>
+   <subhistorias url='81.4.html' id='81.4'>A cédula, só depois dos 14 anos</subhistorias>
+   <tipo>hv</tipo>
+   <title>História de vida- Maria Celeste de Oliveira Pereira</title>
+   <url>81.bi.html</url>
+   <versao>2000-10-13</versao>
+</entry>
+<entry id='81.1'>
+   <pai url='81.bi.html' id='81'>História de vida- Maria Celeste de Oliveira Pereira</pai>
+   <relations>
+      <rel tipo='about'>episódio</rel>
+   </relations>
+   <tipo>episódio</tipo>
+   <title>Pagar uma multa por andar descalça</title>
+   <url>81.1.html</url>
+</entry>
+<entry id='81.2'>
+   <pai url='81.bi.html' id='81'>História de vida- Maria Celeste de Oliveira Pereira</pai>
+   <relations>
+      <rel tipo='about'>casamento</rel>
+   </relations>
+   <tipo>casamento</tipo>
+   <title>Casamento falado</title>
+   <url>81.2.html</url>
+</entry>
+<entry id='81.3'>
+   <pai url='81.bi.html' id='81'>História de vida- Maria Celeste de Oliveira Pereira</pai>
+   <relations>
+      <rel tipo='about'>pescador</rel>
+   </relations>
+   <tipo>pescador</tipo>
+   <title>O temporal</title>
+   <url>81.3.html</url>
+</entry>
+<entry id='81.4'>
+   <pai url='81.bi.html' id='81'>História de vida- Maria Celeste de Oliveira Pereira</pai>
+   <relations>
+      <rel tipo='about'>pescador</rel>
+   </relations>
+   <tipo>pescador</tipo>
+   <title>A cédula, só depois dos 14 anos</title>
+   <url>81.4.html</url>
+</entry>

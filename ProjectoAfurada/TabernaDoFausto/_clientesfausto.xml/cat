@@ -1,0 +1,140 @@
+
+<entry id='75'>
+   <autor tipo='Depoentes'>José AntónioNunes da Silva "Matroco" (
+		  Pescador, 24-10-1941); Jesuíno Moreira Granja (Reformado ); Júlio
+		  Rodrigues Correia "Barbado" (Reformado,12-01-1915) Francisco de Sousa
+		  (Pescador,15-05-1930)</autor>
+   <autor tipo='Entrevistadores'>Daniela Ferreira da Cunha, José Pedro
+		  Rodrigues, Júlio do Carmo Gomes e Pedro Rodrigues</autor>
+   <data>Afurada, Novembro de 1999</data>
+   <projecto>Projecto da Afurada</projecto>
+   <references>
+      <ref tipo='empresa'>"Segredos do
+	 Mar".</ref>
+      <ref tipo='festa tradicional'>S. Pedro</ref>
+      <ref tipo='navio hospital'>"Gil Eanes"</ref>
+      <ref tipo='santo'>Nossa Senhora da
+	 Conceição </ref>
+      <ref tipo='acontecimento'>guerra de 1914</ref>
+   </references>
+   <relations>
+      <rel tipo='IOF'>história de vida</rel>
+   </relations>
+   <subhistorias url='75.1.html' id='75.1'>Três dias perdido no mar</subhistorias>
+   <subhistorias url='75.2.html' id='75.2'>Tirar a roupa para descarregar o peixe</subhistorias>
+   <subhistorias url='75.3.html' id='75.3'>Salvos por um helicóptero</subhistorias>
+   <subhistorias url='75.4.html' id='75.4'>"Veio uma onda do mar e lá fomos ao fundo"</subhistorias>
+   <subhistorias url='75.5.html' id='75.5'>"O cabo traçou-se no meu peito"</subhistorias>
+   <subhistorias url='75.6.html' id='75.6'>"Um submarino botou-nos ao fundo"</subhistorias>
+   <subhistorias url='75.7.html' id='75.7'>"Para o povo ser humilde tem que se passar fome"</subhistorias>
+   <tipo>hv</tipo>
+   <title>História de vida- José AntónioNunes da Silva "Matroco" (
+		  Pescador, 24-10-1941); Jesuíno Moreira Granja (Reformado ); Júlio
+		  Rodrigues Correia "Barbado" (Reformado,12-01-1915) Francisco de Sousa
+		  (Pescador,15-05-1930)</title>
+   <url>75.bi.html</url>
+</entry>
+<entry id='75.1'>
+   <pai url='75.bi.html' id='75'>História de vida- José AntónioNunes da Silva "Matroco" (
+		  Pescador, 24-10-1941); Jesuíno Moreira Granja (Reformado ); Júlio
+		  Rodrigues Correia "Barbado" (Reformado,12-01-1915) Francisco de Sousa
+		  (Pescador,15-05-1930)</pai>
+   <relations>
+      <rel tipo='about'>pesca do bacalhau</rel>
+      <rel tipo='about'>acidente</rel>
+   </relations>
+   <tipo>pesca do bacalhau</tipo>
+   <tipo>acidente</tipo>
+   <title>Três dias perdido no mar</title>
+   <url>75.1.html</url>
+</entry>
+<entry id='75.2'>
+   <pai url='75.bi.html' id='75'>História de vida- José AntónioNunes da Silva "Matroco" (
+		  Pescador, 24-10-1941); Jesuíno Moreira Granja (Reformado ); Júlio
+		  Rodrigues Correia "Barbado" (Reformado,12-01-1915) Francisco de Sousa
+		  (Pescador,15-05-1930)</pai>
+   <relations>
+      <rel tipo='about'>pescador</rel>
+   </relations>
+   <tipo>pescador</tipo>
+   <title>Tirar a roupa para descarregar o peixe</title>
+   <url>75.2.html</url>
+</entry>
+<entry id='75.3'>
+   <data>Setembro de 1973</data>
+   <onde>Mar da Escandinávia</onde>
+   <pai url='75.bi.html' id='75'>História de vida- José AntónioNunes da Silva "Matroco" (
+		  Pescador, 24-10-1941); Jesuíno Moreira Granja (Reformado ); Júlio
+		  Rodrigues Correia "Barbado" (Reformado,12-01-1915) Francisco de Sousa
+		  (Pescador,15-05-1930)</pai>
+   <relations>
+      <rel tipo='about'>naufrágio</rel>
+      <rel tipo='onde'>Mar da Escandinávia</rel>
+   </relations>
+   <tipo>naufrágio</tipo>
+   <title>Salvos por um helicóptero</title>
+   <url>75.3.html</url>
+</entry>
+<entry id='75.4'>
+   <onde>Cais de Leixões</onde>
+   <pai url='75.bi.html' id='75'>História de vida- José AntónioNunes da Silva "Matroco" (
+		  Pescador, 24-10-1941); Jesuíno Moreira Granja (Reformado ); Júlio
+		  Rodrigues Correia "Barbado" (Reformado,12-01-1915) Francisco de Sousa
+		  (Pescador,15-05-1930)</pai>
+   <relations>
+      <rel tipo='about'>naufrágio</rel>
+      <rel tipo='onde'>Cais de Leixões</rel>
+   </relations>
+   <tipo>naufrágio</tipo>
+   <title>"Veio uma onda do mar e lá fomos ao fundo"</title>
+   <url>75.4.html</url>
+</entry>
+<entry id='75.5'>
+   <pai url='75.bi.html' id='75'>História de vida- José AntónioNunes da Silva "Matroco" (
+		  Pescador, 24-10-1941); Jesuíno Moreira Granja (Reformado ); Júlio
+		  Rodrigues Correia "Barbado" (Reformado,12-01-1915) Francisco de Sousa
+		  (Pescador,15-05-1930)</pai>
+   <relations>
+      <rel tipo='about'>acidente</rel>
+   </relations>
+   <tipo>acidente</tipo>
+   <title>"O cabo traçou-se no meu peito"</title>
+   <url>75.5.html</url>
+</entry>
+<entry id='75.6'>
+   <pai url='75.bi.html' id='75'>História de vida- José AntónioNunes da Silva "Matroco" (
+		  Pescador, 24-10-1941); Jesuíno Moreira Granja (Reformado ); Júlio
+		  Rodrigues Correia "Barbado" (Reformado,12-01-1915) Francisco de Sousa
+		  (Pescador,15-05-1930)</pai>
+   <references>
+      <ref tipo='acontecimento'> 2ª Guerra Mundial</ref>
+      <ref tipo='barco'>"Lavrador"</ref>
+   </references>
+   <relations>
+      <rel tipo='about'>naufrágio</rel>
+   </relations>
+   <tipo>naufrágio</tipo>
+   <title>"Um submarino botou-nos ao fundo"</title>
+   <url>75.6.html</url>
+</entry>
+<entry id='75.7'>
+   <pai url='75.bi.html' id='75'>História de vida- José AntónioNunes da Silva "Matroco" (
+		  Pescador, 24-10-1941); Jesuíno Moreira Granja (Reformado ); Júlio
+		  Rodrigues Correia "Barbado" (Reformado,12-01-1915) Francisco de Sousa
+		  (Pescador,15-05-1930)</pai>
+   <references>
+      <ref tipo='revolução'> 25 de Abril</ref>
+      <ref tipo='personalidade'>Cardeal
+		Cerejeira</ref>
+   </references>
+   <relations>
+      <rel tipo='about'>pescador</rel>
+      <rel tipo='about'>censura</rel>
+      <rel tipo='about'>pide</rel>
+   </relations>
+   <tipo>pescador</tipo>
+   <tipo>censura</tipo>
+   <tipo>pide</tipo>
+   <title>"Para o povo ser humilde tem que se passar fome"</title>
+   <url>75.7.html</url>
+</entry>

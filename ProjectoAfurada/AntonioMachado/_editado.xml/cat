@@ -1,0 +1,233 @@
+
+<entry id='89'>
+   <autor tipo='depoente'>António Oliveira Machado</autor>
+   <autor tipo='Indexador'> Sónia Moreira</autor>
+   <data>2000/ 07/ 28</data>
+   <nascimento>
+      <data>1931/12/01</data>
+      <onde>Santo Tirso</onde>
+   </nascimento>
+   <profissao> Funcionário da Câmara Municipal de Vila Nova de
+		  Gaia e Taberneiro</profissao>
+   <projecto>Projecto da Afurada</projecto>
+   <relations>
+      <rel tipo='IOF'>história de vida</rel>
+      <rel tipo='profissao'> Funcionário da Câmara Municipal de Vila Nova de
+		  Gaia e Taberneiro</rel>
+   </relations>
+   <subhistorias url='89.2.html' id='89.2'>Antepassados</subhistorias>
+   <subhistorias url='89.4.html' id='89.4'>Casamento</subhistorias>
+   <subhistorias url='89.9.html' id='89.9'>Casa Machado</subhistorias>
+   <subhistorias url='89.10.html' id='89.10'>"A água dáva-me pelo pescoço"</subhistorias>
+   <subhistorias url='89.13.html' id='89.13'>Ser pescador</subhistorias>
+   <subhistorias url='89.14.html' id='89.14'>"As tabernas não fecharam, mudaram de ramo"</subhistorias>
+   <subhistorias url='89.17.html' id='89.17'>Terra de pescadores</subhistorias>
+   <subhistorias url='89.18.html' id='89.18'>Mirante Ponte da Arrábida</subhistorias>
+   <subhistorias url='89.19.html' id='89.19'>"Eu fiquei palerma ao saber que havia tanto ódio"</subhistorias>
+   <tipo>hv</tipo>
+   <title>História de vida- António Oliveira Machado</title>
+   <url>89.bi.html</url>
+   <versao>2000/10/09</versao>
+</entry>
+<entry id='89.2'>
+   <pai url='89.bi.html' id='89'>História de vida- António Oliveira Machado</pai>
+   <relations>
+      <rel tipo='IOF'>antepassados</rel>
+   </relations>
+   <subhistorias url='89.1.html' id='89.1'>Pai era muito rigoroso</subhistorias>
+   <tipo>antepassados</tipo>
+   <title>Antepassados</title>
+   <url>89.2.html</url>
+</entry>
+<entry id='89.1'>
+   <pai url='89.2.html' id='89.2'>Antepassados</pai>
+   <relations>
+      <rel tipo='about'>educação</rel>
+   </relations>
+   <tipo>educação</tipo>
+   <title>Pai era muito rigoroso</title>
+   <url>89.1.html</url>
+</entry>
+<entry id='89.4'>
+   <pai url='89.bi.html' id='89'>História de vida- António Oliveira Machado</pai>
+   <relations>
+      <rel tipo='IOF'>casamento</rel>
+   </relations>
+   <subhistorias url='89.3.html' id='89.3'>Leiteira</subhistorias>
+   <tipo>casamento</tipo>
+   <title>Casamento</title>
+   <url>89.4.html</url>
+</entry>
+<entry id='89.3'>
+   <pai url='89.4.html' id='89.4'>Casamento</pai>
+   <relations>
+      <rel tipo='about'>ofício</rel>
+   </relations>
+   <tipo>ofício</tipo>
+   <title>Leiteira</title>
+   <url>89.3.html</url>
+</entry>
+<entry id='89.9'>
+   <data>1961/01/02</data>
+   <onde>Afurada</onde>
+   <pai url='89.bi.html' id='89'>História de vida- António Oliveira Machado</pai>
+   <relations>
+      <rel tipo='about'>taberna</rel>
+      <rel tipo='onde'>Afurada</rel>
+   </relations>
+   <subhistorias url='89.7.html' id='89.7'>Vender fiado</subhistorias>
+   <subhistorias url='89.8.html' id='89.8'>Fazer da taberna um restaurante de luxo</subhistorias>
+   <tipo>taberna</tipo>
+   <title>Casa Machado</title>
+   <url>89.9.html</url>
+</entry>
+<entry id='89.7'>
+   <pai url='89.9.html' id='89.9'>Casa Machado</pai>
+   <relations>
+      <rel tipo='about'>taberna</rel>
+   </relations>
+   <subhistorias url='89.5.html' id='89.5'>"A juventude já foge das tabernas"</subhistorias>
+   <subhistorias url='89.6.html' id='89.6'> Ver futebol e conversar</subhistorias>
+   <tipo>taberna</tipo>
+   <title>Vender fiado</title>
+   <url>89.7.html</url>
+</entry>
+<entry id='89.5'>
+   <pai url='89.7.html' id='89.7'>Vender fiado</pai>
+   <relations>
+      <rel tipo='about'>taberna</rel>
+   </relations>
+   <tipo>taberna</tipo>
+   <title>"A juventude já foge das tabernas"</title>
+   <url>89.5.html</url>
+</entry>
+<entry id='89.6'>
+   <pai url='89.7.html' id='89.7'>Vender fiado</pai>
+   <relations>
+      <rel tipo='about'>taberna</rel>
+   </relations>
+   <tipo>taberna</tipo>
+   <title> Ver futebol e conversar</title>
+   <url>89.6.html</url>
+</entry>
+<entry id='89.8'>
+   <pai url='89.9.html' id='89.9'>Casa Machado</pai>
+   <relations>
+      <rel tipo='about'>taberna</rel>
+   </relations>
+   <tipo>taberna</tipo>
+   <title>Fazer da taberna um restaurante de luxo</title>
+   <url>89.8.html</url>
+</entry>
+<entry id='89.10'>
+   <data>1962/01/02</data>
+   <onde>Afurada</onde>
+   <pai url='89.bi.html' id='89'>História de vida- António Oliveira Machado</pai>
+   <relations>
+      <rel tipo='about'>cheias</rel>
+      <rel tipo='onde'>Afurada</rel>
+   </relations>
+   <tipo>cheias</tipo>
+   <title>"A água dáva-me pelo pescoço"</title>
+   <url>89.10.html</url>
+</entry>
+<entry id='89.13'>
+   <onde>Afurada</onde>
+   <pai url='89.bi.html' id='89'>História de vida- António Oliveira Machado</pai>
+   <relations>
+      <rel tipo='about'>ofício</rel>
+      <rel tipo='onde'>Afurada</rel>
+   </relations>
+   <subhistorias url='89.11.html' id='89.11'>"Os bens de ouro iam todos para o prego"</subhistorias>
+   <subhistorias url='89.12.html' id='89.12'>"A mulher governava o dinheiro"</subhistorias>
+   <tipo>ofício</tipo>
+   <title>Ser pescador</title>
+   <url>89.13.html</url>
+</entry>
+<entry id='89.11'>
+   <pai url='89.13.html' id='89.13'>Ser pescador</pai>
+   <relations>
+      <rel tipo='about'>pesca do bacalhau</rel>
+   </relations>
+   <tipo>pesca do bacalhau</tipo>
+   <title>"Os bens de ouro iam todos para o prego"</title>
+   <url>89.11.html</url>
+</entry>
+<entry id='89.12'>
+   <pai url='89.13.html' id='89.13'>Ser pescador</pai>
+   <relations>
+      <rel tipo='about'>papel da mulher</rel>
+      <rel tipo='about'>pescador</rel>
+   </relations>
+   <tipo>papel da mulher</tipo>
+   <tipo>pescador</tipo>
+   <title>"A mulher governava o dinheiro"</title>
+   <url>89.12.html</url>
+</entry>
+<entry id='89.14'>
+   <pai url='89.bi.html' id='89'>História de vida- António Oliveira Machado</pai>
+   <relations>
+      <rel tipo='about'>taberna</rel>
+      <rel tipo='about'>Afurada</rel>
+   </relations>
+   <tipo>taberna</tipo>
+   <tipo>Afurada</tipo>
+   <title>"As tabernas não fecharam, mudaram de ramo"</title>
+   <url>89.14.html</url>
+</entry>
+<entry id='89.17'>
+   <pai url='89.bi.html' id='89'>História de vida- António Oliveira Machado</pai>
+   <relations>
+      <rel tipo='about'>Afurada</rel>
+   </relations>
+   <subhistorias url='89.15.html' id='89.15'>"O processo de emigração era difícil"</subhistorias>
+   <subhistorias url='89.16.html' id='89.16'>A camisola castorina e os socos</subhistorias>
+   <tipo>Afurada</tipo>
+   <title>Terra de pescadores</title>
+   <url>89.17.html</url>
+</entry>
+<entry id='89.15'>
+   <data>década de 60</data>
+   <onde>Afurada</onde>
+   <pai url='89.17.html' id='89.17'>Terra de pescadores</pai>
+   <relations>
+      <rel tipo='about'>emigração</rel>
+      <rel tipo='onde'>Afurada</rel>
+   </relations>
+   <tipo>emigração</tipo>
+   <title>"O processo de emigração era difícil"</title>
+   <url>89.15.html</url>
+</entry>
+<entry id='89.16'>
+   <pai url='89.17.html' id='89.17'>Terra de pescadores</pai>
+   <relations>
+      <rel tipo='about'>trajo</rel>
+      <rel tipo='about'>Afurada</rel>
+   </relations>
+   <tipo>trajo</tipo>
+   <tipo>Afurada</tipo>
+   <title>A camisola castorina e os socos</title>
+   <url>89.16.html</url>
+</entry>
+<entry id='89.18'>
+   <data>1963/06/22</data>
+   <onde>Porto</onde>
+   <pai url='89.bi.html' id='89'>História de vida- António Oliveira Machado</pai>
+   <relations>
+      <rel tipo='about'>monumento</rel>
+      <rel tipo='onde'>Porto</rel>
+   </relations>
+   <tipo>monumento</tipo>
+   <title>Mirante Ponte da Arrábida</title>
+   <url>89.18.html</url>
+</entry>
+<entry id='89.19'>
+   <data>Antes de 1974</data>
+   <pai url='89.bi.html' id='89'>História de vida- António Oliveira Machado</pai>
+   <relations>
+      <rel tipo='about'>Estado Novo</rel>
+   </relations>
+   <tipo>Estado Novo</tipo>
+   <title>"Eu fiquei palerma ao saber que havia tanto ódio"</title>
+   <url>89.19.html</url>
+</entry>

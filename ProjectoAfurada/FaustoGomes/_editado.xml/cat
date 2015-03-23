@@ -1,0 +1,50 @@
+
+<entry id='85'>
+   <autor tipo='depoente'>Fauto Ferreira Gomes </autor>
+   <autor tipo='indexador'>Sónia Moreira</autor>
+   <data>2000/07/28</data>
+   <nascimento>
+      <data>1916/02/13</data>
+      <onde>Gulpilhares - Vila Nova de Gaia</onde>
+   </nascimento>
+   <profissao>taberneiro</profissao>
+   <projecto>Projecto da Afurada</projecto>
+   <relations>
+      <rel tipo='IOF'>história de vida</rel>
+      <rel tipo='profissao'>taberneiro</rel>
+   </relations>
+   <subhistorias url='85.1.html' id='85.1'>Ofício de Taberneiro - merceeiro</subhistorias>
+   <subhistorias url='85.2.html' id='85.2'>"A vida deles é no mar"</subhistorias>
+   <subhistorias url='85.3.html' id='85.3'>"Ó senhor Comandante, é gente com a minha sorte"</subhistorias>
+   <tipo>hv</tipo>
+   <title>Memórias de um taberneiro</title>
+   <url>85.bi.html</url>
+   <versao>2000/10/06</versao>
+</entry>
+<entry id='85.1'>
+   <pai url='85.bi.html' id='85'>Memórias de um taberneiro</pai>
+   <relations>
+      <rel tipo='about'>Taberneiro - merceeiro</rel>
+   </relations>
+   <tipo>Taberneiro - merceeiro</tipo>
+   <title>Ofício de Taberneiro - merceeiro</title>
+   <url>85.1.html</url>
+</entry>
+<entry id='85.2'>
+   <pai url='85.bi.html' id='85'>Memórias de um taberneiro</pai>
+   <relations>
+      <rel tipo='about'>pescador</rel>
+   </relations>
+   <tipo>pescador</tipo>
+   <title>"A vida deles é no mar"</title>
+   <url>85.2.html</url>
+</entry>
+<entry id='85.3'>
+   <pai url='85.bi.html' id='85'>Memórias de um taberneiro</pai>
+   <relations>
+      <rel tipo='about'>episódio</rel>
+   </relations>
+   <tipo>episódio</tipo>
+   <title>"Ó senhor Comandante, é gente com a minha sorte"</title>
+   <url>85.3.html</url>
+</entry>

@@ -1,0 +1,49 @@
+
+<entry id='86'>
+   <autor tipo='Depoente'>Fausto Ferreira Gomes</autor>
+   <autor tipo='Entrevistadores'>Daniela Ferreira Cunha, José Pedro
+		  Rodrigues, Júlio do Carmo Gomes e Pedro Rodrigues</autor>
+   <biografia>Fausto Ferreira Gomes, nasceu em13 de Fevereiro de 1916, na
+		  freguesia de Gulpilhares, Vila Nova de Gaia. É o filho mais velho de
+		  António Gomes, tanoeiro nas caves do vinho do Porto e de Olinda Domingues
+		  Ferreira, agricultora. Frequentou a escola até à 4ª classe. Em
+		  30 de Maio de 1938, começou a cumprir serviço militar no Quartel do
+		  Porto até 1962. Nesse mesmo ano criou o seu negócio abrindo a taberna
+		  e mercearia "Fausto" na Afurada. Casou com Infância Silva Magalhães e
+		  não teve filhos. Continua servindo os amigos na taberna Fausto.
+		  </biografia>
+   <data>Afurada, Novembro de 1999</data>
+   <nascimento>
+      <data>1916/02/13</data>
+      <onde>Gulpilhares - Vila Nova de Gaia</onde>
+   </nascimento>
+   <profissao>taberneiro</profissao>
+   <projecto>Projecto da Afurada</projecto>
+   <references>
+      <ref tipo='instituição'>bombeiros de
+	 Leixões</ref>
+      <ref tipo='santo'>Fátima</ref>
+   </references>
+   <relations>
+      <rel tipo='IOF'>história de vida</rel>
+      <rel tipo='profissao'>taberneiro</rel>
+   </relations>
+   <subhistorias url='86.1.html' id='86.1'>"Não dou número nenhum, põe-te mas é a mexer!"</subhistorias>
+   <tipo>hv</tipo>
+   <title>História de vida- Fausto Ferreira Gomes</title>
+   <url>86.bi.html</url>
+</entry>
+<entry id='86.1'>
+   <onde>Afurada</onde>
+   <pai url='86.bi.html' id='86'>História de vida- Fausto Ferreira Gomes</pai>
+   <references>
+      <ref tipo='PIDE'>PIDE</ref>
+   </references>
+   <relations>
+      <rel tipo='about'>episódio</rel>
+      <rel tipo='onde'>Afurada</rel>
+   </relations>
+   <tipo>episódio</tipo>
+   <title>"Não dou número nenhum, põe-te mas é a mexer!"</title>
+   <url>86.1.html</url>
+</entry>

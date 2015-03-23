@@ -1,0 +1,138 @@
+
+<entry id='78'>
+   <autor tipo='depoente'>Manuel de Oliveira Chaminé</autor>
+   <autor tipo='Indexador'>Sónia Moreira</autor>
+   <data>2000/07/28</data>
+   <nascimento>
+      <data>1930/10/28</data>
+      <onde>Madalena - Vila Nova  de Gaia</onde>
+   </nascimento>
+   <profissao>agricultor</profissao>
+   <profissao>tanoeiro</profissao>
+   <profissao>taberneiro</profissao>
+   <projecto>Projecto da Afurada</projecto>
+   <relations>
+      <rel tipo='IOF'>história de vida</rel>
+      <rel tipo='profissao'>agricultor</rel>
+      <rel tipo='profissao'>tanoeiro</rel>
+      <rel tipo='profissao'>taberneiro</rel>
+   </relations>
+   <subhistorias url='78.1.html' id='78.1'>Família</subhistorias>
+   <subhistorias url='78.5.html' id='78.5'>Percurso Profissional</subhistorias>
+   <subhistorias url='78.10.html' id='78.10'>A Casa Neca Chaminé</subhistorias>
+   <subhistorias url='78.11.html' id='78.11'>"Aqui só se pode ser portista e socialista"</subhistorias>
+   <tipo>hv</tipo>
+   <title>História de vida- Manuel de Oliveira Chaminé</title>
+   <url>78.bi.html</url>
+   <versao>2000/10/06</versao>
+</entry>
+<entry id='78.1'>
+   <pai url='78.bi.html' id='78'>História de vida- Manuel de Oliveira Chaminé</pai>
+   <relations>
+      <rel tipo='IOF'>família</rel>
+   </relations>
+   <tipo>familia</tipo>
+   <title>Família</title>
+   <url>78.1.html</url>
+</entry>
+<entry id='78.5'>
+   <pai url='78.bi.html' id='78'>História de vida- Manuel de Oliveira Chaminé</pai>
+   <relations>
+      <rel tipo='IOF'>percurso Profissional</rel>
+   </relations>
+   <subhistorias url='78.2.html' id='78.2'>Ofício de Agricultor</subhistorias>
+   <subhistorias url='78.3.html' id='78.3'>Ofício de Tanoeiro</subhistorias>
+   <subhistorias url='78.4.html' id='78.4'>Ofício de Taberneiro</subhistorias>
+   <tipo>pprofissional</tipo>
+   <title>Percurso Profissional</title>
+   <url>78.5.html</url>
+</entry>
+<entry id='78.2'>
+   <pai url='78.5.html' id='78.5'>Percurso Profissional</pai>
+   <relations>
+      <rel tipo='about'>Agricultor</rel>
+   </relations>
+   <tipo>Agricultor</tipo>
+   <title>Ofício de Agricultor</title>
+   <url>78.2.html</url>
+</entry>
+<entry id='78.3'>
+   <pai url='78.5.html' id='78.5'>Percurso Profissional</pai>
+   <relations>
+      <rel tipo='about'>Tanoeiro</rel>
+   </relations>
+   <tipo>Tanoeiro</tipo>
+   <title>Ofício de Tanoeiro</title>
+   <url>78.3.html</url>
+</entry>
+<entry id='78.4'>
+   <pai url='78.5.html' id='78.5'>Percurso Profissional</pai>
+   <relations>
+      <rel tipo='about'>Taberneiro</rel>
+   </relations>
+   <tipo>Taberneiro</tipo>
+   <title>Ofício de Taberneiro</title>
+   <url>78.4.html</url>
+</entry>
+<entry id='78.10'>
+   <onde>Afurada</onde>
+   <pai url='78.bi.html' id='78'>História de vida- Manuel de Oliveira Chaminé</pai>
+   <relations>
+      <rel tipo='about'>taberna</rel>
+      <rel tipo='about'>casa Neca Chaminé</rel>
+      <rel tipo='onde'>Afurada</rel>
+   </relations>
+   <subhistorias url='78.6.html' id='78.6'>"Os meus clientes são quase todos pescadores"</subhistorias>
+   <subhistorias url='78.7.html' id='78.7'>"Nunca mais vejo o dinheiro nem o cliente"</subhistorias>
+   <subhistorias url='78.8.html' id='78.8'>"Vendia-se muito aguardente logo pela manhã"</subhistorias>
+   <subhistorias url='78.9.html' id='78.9'>"Os meus filhos têm os empregos deles"</subhistorias>
+   <tipo>taberna</tipo>
+   <tipo>casa Neca Chaminé</tipo>
+   <title>A Casa Neca Chaminé</title>
+   <url>78.10.html</url>
+</entry>
+<entry id='78.6'>
+   <pai url='78.10.html' id='78.10'>A Casa Neca Chaminé</pai>
+   <relations>
+      <rel tipo='about'>casa Neca Chaminé</rel>
+   </relations>
+   <tipo>casa Neca Chaminé</tipo>
+   <title>"Os meus clientes são quase todos pescadores"</title>
+   <url>78.6.html</url>
+</entry>
+<entry id='78.7'>
+   <pai url='78.10.html' id='78.10'>A Casa Neca Chaminé</pai>
+   <relations>
+      <rel tipo='about'>casa Neca Chaminé</rel>
+   </relations>
+   <tipo>casa Neca Chaminé</tipo>
+   <title>"Nunca mais vejo o dinheiro nem o cliente"</title>
+   <url>78.7.html</url>
+</entry>
+<entry id='78.8'>
+   <pai url='78.10.html' id='78.10'>A Casa Neca Chaminé</pai>
+   <relations>
+      <rel tipo='about'>casa Neca Chaminé</rel>
+   </relations>
+   <tipo>casa Neca Chaminé</tipo>
+   <title>"Vendia-se muito aguardente logo pela manhã"</title>
+   <url>78.8.html</url>
+</entry>
+<entry id='78.9'>
+   <pai url='78.10.html' id='78.10'>A Casa Neca Chaminé</pai>
+   <relations>
+      <rel tipo='about'>casa Neca Chaminé</rel>
+   </relations>
+   <tipo>casa Neca Chaminé</tipo>
+   <title>"Os meus filhos têm os empregos deles"</title>
+   <url>78.9.html</url>
+</entry>
+<entry id='78.11'>
+   <pai url='78.bi.html' id='78'>História de vida- Manuel de Oliveira Chaminé</pai>
+   <relations>
+      <rel tipo='about'>Afurada</rel>
+   </relations>
+   <tipo>Afurada</tipo>
+   <title>"Aqui só se pode ser portista e socialista"</title>
+   <url>78.11.html</url>
+</entry>

@@ -1,0 +1,138 @@
+
+<entry id='79'>
+   <autor tipo='Depoente'>Manuel de Oliveira Chaminé</autor>
+   <autor tipo='Entrevistadores'>Daniela Ferreira da Cunha, José Pedro
+		  Rodrigues, Júlio do Carmo Gomes e Pedro Rodrigues</autor>
+   <autor tipo='editor'>Sónia Moreira</autor>
+   <biografia>Manuel de Oliveira Chaminé nasceu em 28 de Outubro de
+		  1930, na freguesia da Madalena, em Vila Nova de Gaia. Cedo começou a
+		  trabalhar na lavoura por força do destino. O pai, Aníbal
+		  Gonçalves Chaminé, adoeceu muito novo e a irmã que era leiteira
+		  não ganhava o suficiente para sustentar a casa. Em 1953, Manuel casa-se
+		  com Maria Ângela Madureira Peixinho. Nesse mesmo ano inicia-se na arte de
+		  tanoaria. Como tanoeiro trabalhou em diversas empresas de vinho do Porto. Foi
+		  um trabalho demasiado árduo e forçoso para um homem que sofria do
+		  coração. Aos 32 anos de idade a doença obriga-o a abandonar a
+		  arte e a juntar-se à mulher que trabalhava na taberna "Neca Chaminé",
+		  na Afurada. Teve quatro filhos e continua a servir os clientes na taberna que
+		  já conta com 39 anos de funcionamento.</biografia>
+   <data>Afurada, Novembro de 1999</data>
+   <nascimento>
+      <data>1930/10/28</data>
+      <onde>Madalena - Vila Nova de Gaia</onde>
+   </nascimento>
+   <profissao> agricultor</profissao>
+   <profissao>tanoeiro</profissao>
+   <profissao>taberneiro</profissao>
+   <projecto> Projecto da Afurada</projecto>
+   <references>
+      <ref tipo='taberna'>Casa Neca Chaminé</ref>
+      <ref tipo='escola'>Colégio de Gaia</ref>
+      <ref tipo='revolução'>25 de Abril</ref>
+      <ref tipo='partidos políticos'>PSD</ref>
+      <ref tipo='partidos políticos'>PP </ref>
+      <ref tipo='partidos políticos'>
+	 PCP</ref>
+      <ref tipo='partidos políticos'>PS</ref>
+      <ref tipo='hospital'>Hospital de Matosinhos</ref>
+      <ref tipo='hospital'>Hospital de Santo António</ref>
+      <ref tipo='hospital'>Hospital de Gaia</ref>
+      <ref tipo='santo'> Fátima </ref>
+      <ref tipo='taberna'>Casa Machado</ref>
+      <ref tipo='taberna'> Casa do Sr.
+	 Neca</ref>
+   </references>
+   <relations>
+      <rel tipo='IOF'>história de vida</rel>
+      <rel tipo='profissao'> agricultor</rel>
+      <rel tipo='profissao'>tanoeiro</rel>
+      <rel tipo='profissao'>taberneiro</rel>
+   </relations>
+   <subhistorias url='79.1.html' id='79.1'>Ofício de Tanoeiro</subhistorias>
+   <subhistorias url='79.2.html' id='79.2'>Pescadores  organizam festa de S.Pedro</subhistorias>
+   <subhistorias url='79.4.html' id='79.4'>A igreja dos santos pretos</subhistorias>
+   <subhistorias url='79.5.html' id='79.5'>A mugiganga e o cerco</subhistorias>
+   <subhistorias url='79.6.html' id='79.6'>A Casa "Neca Chaminé"</subhistorias>
+   <tipo>hv</tipo>
+   <title>História de vida- Manuel de Oliveira Chaminé</title>
+   <url>79.bi.html</url>
+</entry>
+<entry id='79.1'>
+   <pai url='79.bi.html' id='79'>História de vida- Manuel de Oliveira Chaminé</pai>
+   <references>
+      <ref tipo='vinho do Porto'>Santiago e Companhia
+	 Ldª</ref>
+      <ref tipo='vinho do Porto'>Ferreirinha</ref>
+      <ref tipo='vinho do Porto'>Sogrape</ref>
+   </references>
+   <relations>
+      <rel tipo='about'>Tanoeiro</rel>
+   </relations>
+   <tipo>Tanoeiro</tipo>
+   <title>Ofício de Tanoeiro</title>
+   <url>79.1.html</url>
+</entry>
+<entry id='79.2'>
+   <onde>Afurada</onde>
+   <pai url='79.bi.html' id='79'>História de vida- Manuel de Oliveira Chaminé</pai>
+   <references>
+      <ref tipo='festa tradicional; santos'>S. João</ref>
+      <ref tipo='festa tradicional; santos'>S. Pedro</ref>
+   </references>
+   <relations>
+      <rel tipo='about'>festa tradicional</rel>
+      <rel tipo='onde'>Afurada</rel>
+   </relations>
+   <tipo>festa tradicional</tipo>
+   <title>Pescadores  organizam festa de S.Pedro</title>
+   <url>79.2.html</url>
+</entry>
+<entry id='79.4'>
+   <onde>Afurada</onde>
+   <pai url='79.bi.html' id='79'>História de vida- Manuel de Oliveira Chaminé</pai>
+   <relations>
+      <rel tipo='about'>religião</rel>
+      <rel tipo='onde'>Afurada</rel>
+   </relations>
+   <subhistorias url='79.3.html' id='79.3'>O navio América deitou a capela abaixo</subhistorias>
+   <tipo>religião</tipo>
+   <title>A igreja dos santos pretos</title>
+   <url>79.4.html</url>
+</entry>
+<entry id='79.3'>
+   <data>1921</data>
+   <onde>Afurada</onde>
+   <pai url='79.4.html' id='79.4'>A igreja dos santos pretos</pai>
+   <references>
+      <ref tipo='barco'>navio América</ref>
+   </references>
+   <relations>
+      <rel tipo='about'>religião</rel>
+      <rel tipo='onde'>Afurada</rel>
+   </relations>
+   <tipo>religião</tipo>
+   <title>O navio América deitou a capela abaixo</title>
+   <url>79.3.html</url>
+</entry>
+<entry id='79.5'>
+   <onde>Afurada</onde>
+   <pai url='79.bi.html' id='79'>História de vida- Manuel de Oliveira Chaminé</pai>
+   <relations>
+      <rel tipo='about'>pesca</rel>
+      <rel tipo='onde'>Afurada</rel>
+   </relations>
+   <tipo>pesca</tipo>
+   <title>A mugiganga e o cerco</title>
+   <url>79.5.html</url>
+</entry>
+<entry id='79.6'>
+   <onde>Afurada</onde>
+   <pai url='79.bi.html' id='79'>História de vida- Manuel de Oliveira Chaminé</pai>
+   <relations>
+      <rel tipo='about'>taberna</rel>
+      <rel tipo='onde'>Afurada</rel>
+   </relations>
+   <tipo>taberna</tipo>
+   <title>A Casa "Neca Chaminé"</title>
+   <url>79.6.html</url>
+</entry>

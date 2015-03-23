@@ -1,0 +1,139 @@
+
+<entry id='80'>
+   <autor tipo='depoente'>Maria Celeste de Oliveira Pereira</autor>
+   <autor tipo='editor'>Sónia Moreira</autor>
+   <nascimento>
+      <data>1928-12-05</data>
+      <onde>Afurada</onde>
+   </nascimento>
+   <profissao>peixeira</profissao>
+   <projecto>Projecto Afurada</projecto>
+   <relations>
+      <rel tipo='IOF'>história de vida</rel>
+      <rel tipo='profissao'>peixeira</rel>
+   </relations>
+   <subhistorias url='80.1.html' id='80.1'>Antepassados</subhistorias>
+   <subhistorias url='80.2.html' id='80.2'>Infância</subhistorias>
+   <subhistorias url='80.3.html' id='80.3'>"Nunca fui à escola"</subhistorias>
+   <subhistorias url='80.4.html' id='80.4'>Ofício de peixeira</subhistorias>
+   <subhistorias url='80.5.html' id='80.5'>Casamento</subhistorias>
+   <subhistorias url='80.6.html' id='80.6'>Família</subhistorias>
+   <subhistorias url='80.7.html' id='80.7'>Lidas domésticas</subhistorias>
+   <subhistorias url='80.9.html' id='80.9'>"A sardinha anda muito barata"</subhistorias>
+   <subhistorias url='80.10.html' id='80.10'>Toda a gente tem alcunhas</subhistorias>
+   <subhistorias url='80.11.html' id='80.11'>Andar de barco pelas ruas</subhistorias>
+   <subhistorias url='80.12.html' id='80.12'>"Sempre há umas coisitas melhores"</subhistorias>
+   <tipo>hv</tipo>
+   <title>História de vida- Maria Celeste de Oliveira Pereira</title>
+   <url>80.bi.html</url>
+   <versao>2001.02.14</versao>
+</entry>
+<entry id='80.1'>
+   <pai url='80.bi.html' id='80'>História de vida- Maria Celeste de Oliveira Pereira</pai>
+   <relations>
+      <rel tipo='IOF'>antepassados</rel>
+   </relations>
+   <tipo>antepassados</tipo>
+   <title>Antepassados</title>
+   <url>80.1.html</url>
+</entry>
+<entry id='80.2'>
+   <pai url='80.bi.html' id='80'>História de vida- Maria Celeste de Oliveira Pereira</pai>
+   <relations>
+      <rel tipo='IOF'>infância</rel>
+   </relations>
+   <tipo>infancia</tipo>
+   <title>Infância</title>
+   <url>80.2.html</url>
+</entry>
+<entry id='80.3'>
+   <pai url='80.bi.html' id='80'>História de vida- Maria Celeste de Oliveira Pereira</pai>
+   <relations>
+      <rel tipo='about'>educação</rel>
+   </relations>
+   <tipo>educação</tipo>
+   <title>"Nunca fui à escola"</title>
+   <url>80.3.html</url>
+</entry>
+<entry id='80.4'>
+   <pai url='80.bi.html' id='80'>História de vida- Maria Celeste de Oliveira Pereira</pai>
+   <relations>
+      <rel tipo='about'>peixeira</rel>
+   </relations>
+   <tipo>peixeira</tipo>
+   <title>Ofício de peixeira</title>
+   <url>80.4.html</url>
+</entry>
+<entry id='80.5'>
+   <pai url='80.bi.html' id='80'>História de vida- Maria Celeste de Oliveira Pereira</pai>
+   <relations>
+      <rel tipo='IOF'>casamento</rel>
+   </relations>
+   <tipo>casamento</tipo>
+   <title>Casamento</title>
+   <url>80.5.html</url>
+</entry>
+<entry id='80.6'>
+   <pai url='80.bi.html' id='80'>História de vida- Maria Celeste de Oliveira Pereira</pai>
+   <relations>
+      <rel tipo='IOF'>família</rel>
+   </relations>
+   <tipo>familia</tipo>
+   <title>Família</title>
+   <url>80.6.html</url>
+</entry>
+<entry id='80.7'>
+   <pai url='80.bi.html' id='80'>História de vida- Maria Celeste de Oliveira Pereira</pai>
+   <relations>
+      <rel tipo='about'>quotidiano</rel>
+   </relations>
+   <tipo>quotidiano</tipo>
+   <title>Lidas domésticas</title>
+   <url>80.7.html</url>
+</entry>
+<entry id='80.9'>
+   <pai url='80.bi.html' id='80'>História de vida- Maria Celeste de Oliveira Pereira</pai>
+   <relations>
+      <rel tipo='about'>pesca</rel>
+   </relations>
+   <subhistorias url='80.8.html' id='80.8'>Antes as patroas vendiam o peixe agora vão para as fábricas</subhistorias>
+   <tipo>pesca</tipo>
+   <title>"A sardinha anda muito barata"</title>
+   <url>80.9.html</url>
+</entry>
+<entry id='80.8'>
+   <pai url='80.9.html' id='80.9'>"A sardinha anda muito barata"</pai>
+   <relations>
+      <rel tipo='about'>mulher do pescador</rel>
+   </relations>
+   <tipo>mulher do pescador</tipo>
+   <title>Antes as patroas vendiam o peixe agora vão para as fábricas</title>
+   <url>80.8.html</url>
+</entry>
+<entry id='80.10'>
+   <pai url='80.bi.html' id='80'>História de vida- Maria Celeste de Oliveira Pereira</pai>
+   <relations>
+      <rel tipo='about'>Afurada</rel>
+   </relations>
+   <tipo>Afurada</tipo>
+   <title>Toda a gente tem alcunhas</title>
+   <url>80.10.html</url>
+</entry>
+<entry id='80.11'>
+   <pai url='80.bi.html' id='80'>História de vida- Maria Celeste de Oliveira Pereira</pai>
+   <relations>
+      <rel tipo='about'>cheias</rel>
+   </relations>
+   <tipo>cheias</tipo>
+   <title>Andar de barco pelas ruas</title>
+   <url>80.11.html</url>
+</entry>
+<entry id='80.12'>
+   <pai url='80.bi.html' id='80'>História de vida- Maria Celeste de Oliveira Pereira</pai>
+   <relations>
+      <rel tipo='about'>Natal</rel>
+   </relations>
+   <tipo>Natal</tipo>
+   <title>"Sempre há umas coisitas melhores"</title>
+   <url>80.12.html</url>
+</entry>

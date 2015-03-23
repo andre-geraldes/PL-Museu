@@ -1,0 +1,223 @@
+
+<entry id='90'>
+   <autor tipo='Depoente'>António Oliveira Machado</autor>
+   <autor tipo='Entrevistadores'>Daniela Ferreira da Cunha, José Pedro
+		  Rodrigues, Júlio do Carmo Gomes e Pedro Rodrigues</autor>
+   <autor tipo='editor'>Sónia Moreira</autor>
+   <biografia>António Oliveira Machado nasceu na cidade de Santo Tirso
+		  a 1 de Dezembro de 1931. Filho de pais lavradores passou a infância a
+		  trabalhar na terra e a cuidar do gado. Com nove anos de idade vai viver para a
+		  freguesia de Canidelo, em Vila Nova de Gaia. Aos 20 anos ingressa como
+		  funcionário público na Câmara Municipal de Vila Nova de Gaia.
+		  Conheceu a Dona Ana que era leiteira, com quem casou em 15 de Janeiro de 1961.
+		  Um dia depois do casamento decidem abrir a "Casa Machado", na Afurada.
+		  Após o nascimento das duas filhas, abandonou o serviço na câmara
+		  para ajudar a mulher nas lidas da taberna. Aposentou-se e continuou a trabalhar
+		  na "Casa Machado" com a esposa. </biografia>
+   <data>Afurada, Novembro de 1999</data>
+   <nascimento>
+      <data>1931/12/01</data>
+      <onde>Santo Tirso</onde>
+   </nascimento>
+   <profissao>Funcionário da Câmara de Vila Nova de Gaia e
+		  Taberneiro</profissao>
+   <projecto>Projecto da Afurada</projecto>
+   <references>
+      <ref tipo='cidade'> Santo Tirso</ref>
+      <ref tipo='cidade'>Vila Nova de Gaia</ref>
+      <ref tipo='ponte'>Ponte da
+	 Arrábida</ref>
+      <ref tipo='empresa'> fábrica de conservas</ref>
+      <ref tipo='personalidade'>Mário Soares</ref>
+      <ref tipo='barco'> traineiras
+	 </ref>
+      <ref tipo='revolução'>25 de Abril</ref>
+      <ref tipo='associação'>Futebol Clube da Afurada</ref>
+      <ref tipo='associação'>Sociedade Afuradense</ref>
+      <ref tipo='empresa'>Monteiro Ribas</ref>
+      <ref tipo='hospital'>Santo
+	 António</ref>
+      <ref tipo='futebol'>Futebol Clube do Porto</ref>
+      <ref tipo='futebol'>Boavista </ref>
+   </references>
+   <relations>
+      <rel tipo='IOF'>história de vida</rel>
+      <rel tipo='profissao'>funcionário da Câmara de Vila Nova de Gaia e
+		  Taberneiro</rel>
+   </relations>
+   <subhistorias url='90.1.html' id='90.1'> Foi tudo parar ao rio</subhistorias>
+   <subhistorias url='90.2.html' id='90.2'>Leva de emigrantes para a Europa e América</subhistorias>
+   <subhistorias url='90.3.html' id='90.3'>O "Chapéu de Palha"</subhistorias>
+   <subhistorias url='90.4.html' id='90.4'>Pesca do Bacalhau</subhistorias>
+   <subhistorias url='90.5.html' id='90.5'>Os moliceiros e as bateiras</subhistorias>
+   <subhistorias url='90.6.html' id='90.6'>O "Dom Manuel" </subhistorias>
+   <subhistorias url='90.7.html' id='90.7'>O S.Pedro da Afurada</subhistorias>
+   <subhistorias url='90.8.html' id='90.8'>"Quando a mulher falha é uma desgraça"</subhistorias>
+   <subhistorias url='90.9.html' id='90.9'>"As tabernas mudaram-se para cafés"</subhistorias>
+   <subhistorias url='90.10.html' id='90.10'>O Eliseu da gabardina azul</subhistorias>
+   <subhistorias url='90.11.html' id='90.11'> A Casa Machado</subhistorias>
+   <subhistorias url='90.12.html' id='90.12'>"Rouba-santos"</subhistorias>
+   <tipo>hv</tipo>
+   <title>História de vida- António Oliveira Machado</title>
+   <url>90.bi.html</url>
+</entry>
+<entry id='90.1'>
+   <data>1962/01/02</data>
+   <onde>Afurada</onde>
+   <pai url='90.bi.html' id='90'>História de vida- António Oliveira Machado</pai>
+   <relations>
+      <rel tipo='about'>cheias</rel>
+      <rel tipo='onde'>Afurada</rel>
+   </relations>
+   <tipo>cheias</tipo>
+   <title> Foi tudo parar ao rio</title>
+   <url>90.1.html</url>
+</entry>
+<entry id='90.2'>
+   <data>Anos 60</data>
+   <pai url='90.bi.html' id='90'>História de vida- António Oliveira Machado</pai>
+   <references>
+      <ref tipo='revolução'>25 de
+		Abril</ref>
+   </references>
+   <relations>
+      <rel tipo='about'>emigração</rel>
+   </relations>
+   <tipo>emigração</tipo>
+   <title>Leva de emigrantes para a Europa e América</title>
+   <url>90.2.html</url>
+</entry>
+<entry id='90.3'>
+   <pai url='90.bi.html' id='90'>História de vida- António Oliveira Machado</pai>
+   <references>
+      <ref tipo='barco'>"Chapéu de
+		Palha".</ref>
+   </references>
+   <relations>
+      <rel tipo='about'>barco</rel>
+   </relations>
+   <tipo>barco</tipo>
+   <title>O "Chapéu de Palha"</title>
+   <url>90.3.html</url>
+</entry>
+<entry id='90.4'>
+   <pai url='90.bi.html' id='90'>História de vida- António Oliveira Machado</pai>
+   <relations>
+      <rel tipo='about'>pesca</rel>
+   </relations>
+   <tipo>pesca</tipo>
+   <title>Pesca do Bacalhau</title>
+   <url>90.4.html</url>
+</entry>
+<entry id='90.5'>
+   <pai url='90.bi.html' id='90'>História de vida- António Oliveira Machado</pai>
+   <references>
+      <ref tipo='barco'>Bateiras</ref>
+      <ref tipo='barco'>Moliceiros</ref>
+      <ref tipo='barco'> Maião</ref>
+   </references>
+   <relations>
+      <rel tipo='about'>barco</rel>
+   </relations>
+   <tipo>barco</tipo>
+   <title>Os moliceiros e as bateiras</title>
+   <url>90.5.html</url>
+</entry>
+<entry id='90.6'>
+   <data>1942</data>
+   <onde>Cabedelo</onde>
+   <pai url='90.bi.html' id='90'>História de vida- António Oliveira Machado</pai>
+   <references>
+      <ref tipo='barco'> "Dom Manuel"</ref>
+   </references>
+   <relations>
+      <rel tipo='about'>naufrágio</rel>
+      <rel tipo='onde'>Cabedelo</rel>
+   </relations>
+   <tipo>naufrágio</tipo>
+   <title>O "Dom Manuel" </title>
+   <url>90.6.html</url>
+</entry>
+<entry id='90.7'>
+   <onde>Afurada</onde>
+   <pai url='90.bi.html' id='90'>História de vida- António Oliveira Machado</pai>
+   <references>
+      <ref tipo='festa tradicional'>S. Pedro da Afurada</ref>
+   </references>
+   <relations>
+      <rel tipo='about'>festa tradicional</rel>
+      <rel tipo='onde'>Afurada</rel>
+   </relations>
+   <tipo>festa tradicional</tipo>
+   <title>O S.Pedro da Afurada</title>
+   <url>90.7.html</url>
+</entry>
+<entry id='90.8'>
+   <pai url='90.bi.html' id='90'>História de vida- António Oliveira Machado</pai>
+   <relations>
+      <rel tipo='about'>papel da mulher</rel>
+      <rel tipo='about'>pescador</rel>
+   </relations>
+   <tipo>papel da mulher</tipo>
+   <tipo>pescador</tipo>
+   <title>"Quando a mulher falha é uma desgraça"</title>
+   <url>90.8.html</url>
+</entry>
+<entry id='90.9'>
+   <onde>Afurada</onde>
+   <pai url='90.bi.html' id='90'>História de vida- António Oliveira Machado</pai>
+   <references>
+      <ref tipo='taberna'>Ana
+		Rosalina</ref>
+      <ref tipo='taberna'> Fausto</ref>
+   </references>
+   <relations>
+      <rel tipo='about'>taberna</rel>
+      <rel tipo='onde'>Afurada</rel>
+   </relations>
+   <tipo>taberna</tipo>
+   <title>"As tabernas mudaram-se para cafés"</title>
+   <url>90.9.html</url>
+</entry>
+<entry id='90.10'>
+   <onde>Afurada</onde>
+   <pai url='90.bi.html' id='90'>História de vida- António Oliveira Machado</pai>
+   <references>
+      <ref tipo='personagem típica'>Eliseu</ref>
+   </references>
+   <relations>
+      <rel tipo='about'>personagem típica</rel>
+      <rel tipo='onde'>Afurada</rel>
+   </relations>
+   <tipo>personagem típica</tipo>
+   <title>O Eliseu da gabardina azul</title>
+   <url>90.10.html</url>
+</entry>
+<entry id='90.11'>
+   <onde>Afurada</onde>
+   <pai url='90.bi.html' id='90'>História de vida- António Oliveira Machado</pai>
+   <references>
+      <ref tipo='taberna'>Casa Machado</ref>
+      <ref tipo='personagem típica'> Sãozinha</ref>
+      <ref tipo='mercado'>Bom Sucesso</ref>
+   </references>
+   <relations>
+      <rel tipo='about'>taberna</rel>
+      <rel tipo='onde'>Afurada</rel>
+   </relations>
+   <tipo>taberna</tipo>
+   <title> A Casa Machado</title>
+   <url>90.11.html</url>
+</entry>
+<entry id='90.12'>
+   <data>1952</data>
+   <onde>Afurada</onde>
+   <pai url='90.bi.html' id='90'>História de vida- António Oliveira Machado</pai>
+   <relations>
+      <rel tipo='about'>episódio</rel>
+      <rel tipo='onde'>Afurada</rel>
+   </relations>
+   <tipo>episódio</tipo>
+   <title>"Rouba-santos"</title>
+   <url>90.12.html</url>
+</entry>
