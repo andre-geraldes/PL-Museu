@@ -2,6 +2,11 @@
 /** Estrutura que guarda uma data **/
 
 struct data {
+	int ano;
+	int mes;
+	int dia:
+};
+
 struct nodo_avl {
     int data;
     char *nome;
