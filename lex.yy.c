@@ -501,6 +501,7 @@ char *yytext;
 /* Declaracoes C diversas */
 #include <stdio.h>
 #include <string.h>
+#include "html.h"
 char * foto;
 char * facto;
 char * quem;
@@ -509,7 +510,7 @@ char * quando;
 
 
 
-#line 513 "lex.yy.c"
+#line 514 "lex.yy.c"
 
 #define INITIAL 0
 #define QUEM1 1
@@ -697,7 +698,7 @@ YY_DECL
     
 #line 18 "parser.l"
 
-#line 701 "lex.yy.c"
+#line 702 "lex.yy.c"
 
 	if ( !(yy_init) )
 		{
@@ -855,7 +856,7 @@ YY_RULE_SETUP
 #line 36 "parser.l"
 ECHO;
 	YY_BREAK
-#line 859 "lex.yy.c"
+#line 860 "lex.yy.c"
 case YY_STATE_EOF(INITIAL):
 case YY_STATE_EOF(QUEM1):
 case YY_STATE_EOF(FACTO1):
@@ -1867,6 +1868,9 @@ int yywrap()
 
 int main()
 { 
+	FILE * html;
+	html = fopen("new.html","w");
+	newHeader("Museu da Pessoa", html);
 	yylex(); 
 	return 0; 
 }

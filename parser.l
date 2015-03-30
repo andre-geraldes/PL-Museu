@@ -2,12 +2,12 @@
 /* Declaracoes C diversas */
 #include <stdio.h>
 #include <string.h>
+#include "html.h"
 char * foto;
 char * facto;
 char * quem;
 char * quando;
 %}
-
 
 
 %x QUEM1
@@ -42,6 +42,9 @@ int yywrap()
 
 int main()
 { 
+	FILE * html;
+	html = fopen("new.html","w");
+	newHeader("Museu da Pessoa", html);
 	yylex(); 
 	return 0; 
 }

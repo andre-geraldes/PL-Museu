@@ -1,1 +1,3 @@
-#include <stdio.h>
+#include "html.c"
+
+void newHeader (char *tit, FILE *fp);
