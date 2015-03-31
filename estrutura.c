@@ -1,32 +1,17 @@
-
-/** Estrutura que guarda uma data **/
-
-struct data {
-	int ano;
-	int mes;
-	int dia:
-};
-
-struct nodo_avl {
-    int data;
-    char *nome;
-    char *quem;
-    char *fato;
-    struct nodo_avl *esq;
-    struct nodo_avl *direita;
-};
+#include "data.h"
+#include "estrutura.h"
 
 /** Função que calcula a altura de um nodo **/
-int altura (struct nodo_avl *nodo){
-	int altura=0;
-    if (nodo !=NULL){
-        int altura_esq= altura(nodo ->esq);
-        int altura_dir= altura(nodo -> dir);
+int altura(struct nodo_avl *nodo){
+	int alt = 0;
+    if (nodo != NULL){
+        int altura_esq = altura(nodo->esq);
+        int altura_dir = altura(nodo->dir);
         int max=0;
         if(altura_esq > altura_dir) max = altura_dir;
-        altura = 1+ max;
+        alt = 1 + max;
     }
-    return altura;
+    return alt;
 }
 
 /** Função que calcula o fator de balanceamento de um nodo **/
@@ -50,7 +35,7 @@ struct nodo_avl* rotacao_dir_dir(struct nodo_avl *pai){
 struct nodo_avl* rotacao_esq_esq(struct nodo_avl *pai){
 	struct nodo_avl *nodo1;
 	nodo1 = pai->esq;
-	pai->esq = nodo1 ->dir;
+	pai->esq = nodo1->dir;
 	nodo1->dir = pai;
 	return nodo1;
 }
@@ -76,7 +61,7 @@ struct nodo_avl* rotacao_esq_dir(struct nodo_avl * pai){
 /** Função para balancear a AVL **/
 struct nodo_avl* balancear(struct nodo_avl *nodo)
 {
-    int bfator= fator(nodo);
+    int bfator = fator(nodo);
     if (bfator >1) {
         if (fator(nodo->esq) >0)
             nodo=rotacao_esq_esq(nodo);
@@ -84,7 +69,7 @@ struct nodo_avl* balancear(struct nodo_avl *nodo)
             nodo=rotacao_esq_dir(nodo);
     }
     else if(bfator < -1) {
-        if(fator(nodo ->dir) >0)
+        if(fator(nodo->dir) >0)
             nodo=rotacao_dir_esq(nodo);
         else
             nodo=rotacao_dir_dir(nodo);
@@ -93,51 +78,53 @@ struct nodo_avl* balancear(struct nodo_avl *nodo)
 }  
 
 /** Função para inserir um elemento na AVL **/
-struct nodo_avl* inserir(struct nodo_avl *raiz,int val, char* nom, char*que, char* fat)
+struct nodo_avl* inserir(struct nodo_avl *raiz, struct data val, char* nom, char*que, char* fat)
 {
     if (raiz==NULL) {
         raiz = (struct nodo_avl*) malloc(sizeof(struct nodo_avl));
-        raiz -> data = val;
-        raiz -> nome = nom;
-        raiz -> quem = que;
-        raiz -> fato = fat;
-        raiz -> left = NULL;
-        raiz -> right = NULL;
+        raiz-> datay = val;
+        raiz-> nome = nom;
+        raiz-> quem = que;
+        raiz-> fato = fat;
+        raiz-> esq = NULL;
+        raiz-> dir = NULL;
         return raiz;
     }
-    else if (comparaDatas(val,raiz->data)==-1) {
-        raiz->esq = inserir(raiz->esq, val);
+    else if (comparaDatas(val,raiz->datay)==-1) {
+        raiz->esq = inserir(raiz->esq, val, nom, que, fat);
         raiz=balancear(raiz);
     }
-    else if (comparaDatas(val,raiz->data)==1) {
-        raiz->dir = insert(raiz->dir, val);
+    else if (comparaDatas(val,raiz->datay)==1) {
+        raiz->dir = inserir(raiz->dir, val, nom, que, fat);
         raiz=balancear(raiz);
     }
     return raiz;
 }
 
 /** Função que compara duas datas **/
-int comparaDatas(data data1, data data2){
-	if(data1->ano > data2->ano)return 1;
-	else if(data1->ano < data2->ano) return -1;
+int comparaDatas(struct data data1, struct data data2){
+	if(data1.ano > data2.ano)return 1;
+	else if(data1.ano < data2.ano) return -1;
 	else {
-		if(data1->mes > data2->mes)return 1;
-		else if(data1->mes < data2->mes)return -1;
+		if(data1.mes > data2.mes)return 1;
+		else if(data1.mes < data2.mes)return -1;
 		else {
-			if(data1->dia > data2->dia)return 1;
-			else if(data1->dia <= data2->dia) return -1;
+			if(data1.dia > data2.dia)return 1;
+			else if(data1.dia <= data2.dia) return -1;
 		}
-
+    }
+    return -1;
 }
 
 /** Travessia inorder da AVL **/
-void inorder(struct nodo_avl *arvore)
-{
+void inorder(struct nodo_avl *arvore){
+    char * nomes;
     if(arvore == NULL)
         return;
     else {
-         inorder(arvore -> esq);
-         printf("%d\t",esq ->data);
+         inorder(arvore->esq);
+         printf("%d\t",arvore->datay.ano);
          inorder(arvore ->dir);
     }
 }
+
