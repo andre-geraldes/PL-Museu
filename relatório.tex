@@ -65,7 +65,7 @@
 \maketitle
 
 \begin{abstract}
-Este trabalho foi realizado no âmbito da Unidade Curricular de Processamento de Linguagens e visa, através da construção de um filtro de texto, melhorar a capacidade de desenvolvimento de \emph{Expressões Regulares} bem como aumentar a experiência de utilização da linguagem C.\\
+Este relatório descreve todo o processo de desenvolvimento e decisões tomadas para a realização do primeiro trabalho prático da Unidade Curricular de Processamento de Linguagens.\\ O problema a resolver consiste no desenvolvimento de um Filtro de Texto, utilizando Flex, para processar ficheiros XML com informações sobre fotografias e gerar um álbum HTML a partir delas.
 
 \end{abstract}
 
@@ -73,16 +73,9 @@ Este trabalho foi realizado no âmbito da Unidade Curricular de Processamento de 
 
 \chapter{Introdução} \label{intro}
 
-\begin{description}
-  \item [Enquadramento] \textbf{bla bla} bla bla
-  \item [Conteúdo do documento] \textsf{ble ble} \texttt{ble} ble
-  \item [Resultados -- pontos a evidenciar] \emph{bli bli bli bli}
-  \item [Estrutura do documento] \underline{blo blo blo}
-\end{description}
 
-letras gregas são estas \[ \alpha \beta \gamma \delta \] que aqui demonstro
+A resolução deste trabalho prático passa pelo desenvolvimento de um Filtro de Texto em Flex para gerar ficheiros em HTML. Para isso utilizamos as técnicas leccionadas nas aulas da Unidade Curricular de Processamento de Linguagens. Pretendemos portanto com este trabalho aprimorar as nossas capacidades de escrever \emph{Expressões Regulares (ER)} e também a nossa experiência na utilização da linguagem de programação C.\\ Neste relatório apresentamos todos os passos e decisões tomadas durante todo o processo, descrevemos as estruturas criadas para guardar o texto extraído pelo filtro e também uma descrição do produto final (em HTML) obtido com a utilização do filtro criado por nós.
 
-exemplo simples de fração $ \frac{\frac{a * b + c}{4-3}}{3*5} $ simples
 
 \section*{Estrutura do Relatório} \
 explicar como está organizado o documento, referindo os capítulos existentes
@@ -95,14 +88,22 @@ as conclusões e o trab futuro
 
 \chapter{Análise e Especificação} \label{ae}
 \section{Descrição informal do problema}
+Dos enunciados propostos o que escolhemos seguir foi o "Museu da Pessoa - tratamento de fotografias". \\Neste enunciado foi-nos pedido que realizassemos um Filtro de Texto em Flex para, através de um ficheiro XML com informações (onde,quando,quem e facto) sobre fotografias que fazem parte do Museu da Pessoa, gerar um álbum em HTML em que sejam mostradas as fotografias em questão, por ordem cronológica, sendo que o título de cada fotografia será o campo "facto". Foi-nos ainda pedido que apresentássemos um índice no ínicio com o nome de todas as pessoas retratadas.
 \section{Especificação do Requisitos}
 \subsection{Dados}
 \subsection{Pedidos}
 \subsection{Relações}
 
 \chapter{Concepção/desenho da Resolução}
+Para a resolução do problema foi necessário definirmos \emph{Expressões Regulares}, estados no Flex e ainda estruturas de dados para guardar a informação filtrada. Nos próximos capítulos iremos descrever detalhadamente cada um destes pontos.
+\section{Expressões Regulares}
+As expressões regulares definidas visam extrair do ficheiro XML as informações necessárias para a construção da página HTML: foto, quando, onde, quem e facto. Após analisar cuidadosamente a estrutura dos ficheiros XML em questão chegamos às seguintes \emph{Expressões Regulares}:\\ \textbf{QUEM} "<"(?i:QUEM)">" \\ \textbf{FACTO} "<"(?i:FACTO)">" \\ \textbf{FOTO} "<"(?i:FOTO)" "(?i:FICHEIRO)"=\"" \\ \textbf{QUANDO} "<"(?i:QUANDO)" "(?i:DATA)"=\"" \\ \textbf{ONDE} ????
+
+\section{Estados da Aplicação}
+\section{Módulos da Aplicação}
 \section{Estruturas de Dados}
-\section{Algoritmos}
+
+
 
 \chapter{Codificação e Testes}
 \section{Alternativas, Decisões e Problemas de Implementação}
@@ -121,19 +122,8 @@ Trabalho futuro.
 \appendix
 \chapter{Código do Programa}
 
-Lista-se a seguir o código \java~\cite{citeulike:4677363} do programa \darius~\cite{FCH11a} que foi desenvolvido.
-\begin{verbatim}
-      aqui deve aparecer o código do programa,
-      tal como está formato no ficheiro-fonte "darius.java"
-\end{verbatim}
 
-\begin{lstlisting}[caption={Exemplo de uma Listagem}, label={lstExe1}]
-      ou então aparecer aqui neste sítio
-      como alternativa ao anterior.
-\end{lstlisting}
-
-É ainda possível importar diretamente o ficheiro:
-\lstinputlisting{plfiltrobase.l} %input de um ficheiro
+\lstinputlisting{parser.l} %input de um ficheiro
 
 \bibliographystyle{alpha}
 \bibliography{../Bibs/lp,prh}
