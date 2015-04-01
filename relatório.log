@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.3.31)  1 APR 2015 11:12
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.3.31)  1 APR 2015 12:17
 entering extended mode
 **relatório.tex
-(C:\Users\Sandra\Documents\GitHub\PL-Museu\relatório.tex
+("C:\Users\Patrícia\Desktop\LEI 3.2\PL\PL-Museu\relatório.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -13,9 +13,9 @@ german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
 ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\report.cls"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\report.cls"
 Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size10.clo"
 File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -31,39 +31,39 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
 Package: babel 2008/07/08 v3.8m The Babel package
 
 *************************************
 * Local config file bblopts.cfg used
 *
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
 File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\portuges.ldf"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\portuges.ldf"
 Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.def"
 File: babel.def 2008/07/08 v3.8m Babel common definitions
 \babel@savecnt=\count88
 \U@D=\dimen103
 )
 Package babel Info: Making " an active character on input line 145.
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\latin1.def"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\latin1.def"
 File: latin1.def 2008/03/30 v1.1d Input encoding file
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
+(C:\Users\Patrícia\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty"
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+(C:\Users\Patrícia\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks16
 )
@@ -80,21 +80,20 @@ Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \lst@lineno=\count94
 \lst@maxwidth=\dimen107
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
+(C:\Users\Patrícia\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstmisc.sty
 File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
 \c@lstnumber=\count95
 \lst@skipnumbers=\count96
 \lst@framebox=\box27
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg"
+(C:\Users\Patrícia\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.cfg
 File: listings.cfg 2014/09/06 1.5e listings configuration
 ))
 Package: listings 2014/09/06 1.5e (Carsten Heinz)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\xspace.sty"
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\xspace.sty"
 Package: xspace 2009/10/20 v1.13 Space after command names (DPC,MH)
 )
-(C:\Users\Sandra\Documents\GitHub\PL-Museu\relatório.aux)
+("C:\Users\Patrícia\Desktop\LEI 3.2\PL\PL-Museu\relatório.aux")
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
 LaTeX Font Info:    ... okay on input line 63.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 63.
@@ -118,8 +117,8 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 65.
  [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [1]
-(C:\Users\Sandra\Documents\GitHub\PL-Museu\relatório.toc
+{C:/Users/Patrícia/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [1]
+("C:\Users\Patrícia\Desktop\LEI 3.2\PL\PL-Museu\relatório.toc"
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 4.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -130,66 +129,55 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 ]
 Cap\'{\i }tulo 1.
-
-Underfull \hbox (badness 10000) in paragraph at lines 80--89
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 80--89
-
- []
-
 [2
 
-] [3]
+]
 Cap\'{\i }tulo 2.
-[4
+[3
 
 ]
 Cap\'{\i }tulo 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--102
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
 
  []
 
-[5
+[4
 
-] [6] ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+]
+(C:\Users\Patrícia\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstlang1.sty
 File: lstlang1.sty 2014/09/06 1.5e listings language file
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
+) (C:\Users\Patrícia\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstmisc.sty
 File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
-)
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 151.
+) [5]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 145.
 
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 151.
- [7]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 145.
+ [6]
 Cap\'{\i }tulo 4.
-[8
+[7
 
 ]
 Cap\'{\i }tulo 5.
-[9
+[8
 
 ]
 Ap\^endice A.
-(C:\Users\Sandra\Documents\GitHub\PL-Museu\parser.l
+("C:\Users\Patrícia\Desktop\LEI 3.2\PL\PL-Museu\parser.l"
 LaTeX Font Info:    Try loading font information for OML+cmr on input line 3.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\omlcmr.fd"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omlcmr.fd"
 File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <9> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 3.
- [10
+ [9
 
-] [11]
+] [10]
 Overfull \hbox (76.80139pt too wide) in paragraph at lines 79--81
 [][][][][] 
  []
@@ -250,176 +238,99 @@ Overfull \hbox (85.70135pt too wide) in paragraph at lines 79--81
  []
 
 
-Overfull \hbox (87.90143pt too wide) in paragraph at lines 84--85
+Overfull \hbox (165.60168pt too wide) in paragraph at lines 86--89
 [][][][][] 
  []
 
 
-Overfull \hbox (91.25137pt too wide) in paragraph at lines 84--85
+Overfull \hbox (130.1015pt too wide) in paragraph at lines 86--89
 [][] 
  []
 
 
-Overfull \hbox (91.25137pt too wide) in paragraph at lines 84--85
+Overfull \hbox (146.75156pt too wide) in paragraph at lines 86--89
 [][] 
  []
 
 
-Overfull \hbox (91.25137pt too wide) in paragraph at lines 84--85
+Overfull \hbox (124.55148pt too wide) in paragraph at lines 86--89
 [][] 
  []
 
 
-Overfull \hbox (130.1015pt too wide) in paragraph at lines 84--85
+Overfull \hbox (124.55148pt too wide) in paragraph at lines 86--89
 [][] 
  []
 
 
-Overfull \hbox (91.25137pt too wide) in paragraph at lines 84--85
+Overfull \hbox (141.20154pt too wide) in paragraph at lines 86--89
 [][] 
  []
 
 
-Overfull \hbox (96.80139pt too wide) in paragraph at lines 84--85
+Overfull \hbox (124.55148pt too wide) in paragraph at lines 86--89
 [][] 
  []
 
 
-Overfull \hbox (91.25137pt too wide) in paragraph at lines 84--85
+Overfull \hbox (124.55148pt too wide) in paragraph at lines 86--89
 [][] 
  []
 
 
-Overfull \hbox (91.25137pt too wide) in paragraph at lines 84--85
+Overfull \hbox (124.55148pt too wide) in paragraph at lines 86--89
 [][] 
  []
 
 
-Overfull \hbox (107.90143pt too wide) in paragraph at lines 84--85
+Overfull \hbox (124.55148pt too wide) in paragraph at lines 86--89
 [][] 
  []
 
 
-Overfull \hbox (91.25137pt too wide) in paragraph at lines 84--85
-[][] 
- []
-
-
-Overfull \hbox (91.25137pt too wide) in paragraph at lines 84--85
-[][] 
- []
-
-
-Overfull \hbox (107.90143pt too wide) in paragraph at lines 84--85
-[][] 
- []
-
-
-Overfull \hbox (91.25137pt too wide) in paragraph at lines 84--85
-[][] 
- []
-
-
-Overfull \hbox (91.25137pt too wide) in paragraph at lines 84--85
-[][] 
- []
-
-
-Overfull \hbox (113.45145pt too wide) in paragraph at lines 84--85
-[][] 
- []
-
-
-Overfull \hbox (91.25137pt too wide) in paragraph at lines 84--85
-[][] 
- []
-
-
-Overfull \hbox (91.25137pt too wide) in paragraph at lines 84--85
-[][] 
- []
-
-
-Overfull \hbox (85.70135pt too wide) in paragraph at lines 84--85
+Overfull \hbox (119.00146pt too wide) in paragraph at lines 86--89
 []  
  []
 
+[11]) [12]
+Ap\^endice B.
+("C:\Users\Patrícia\Desktop\LEI 3.2\PL\PL-Museu\listaligada.c"
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 8.
+ [13
 
-Overfull \hbox (132.30157pt too wide) in paragraph at lines 85--86
-[][][][][] 
- []
+]) [14]
+Ap\^endice C.
+("C:\Users\Patrícia\Desktop\LEI 3.2\PL\PL-Museu\html.c" [15
 
-
-Overfull \hbox (96.80139pt too wide) in paragraph at lines 85--86
-[][] 
- []
-
-
-Overfull \hbox (113.45145pt too wide) in paragraph at lines 85--86
-[][] 
- []
-
-
-Overfull \hbox (91.25137pt too wide) in paragraph at lines 85--86
-[][] 
- []
-
-
-Overfull \hbox (91.25137pt too wide) in paragraph at lines 85--86
-[][] 
- []
-
-
-Overfull \hbox (107.90143pt too wide) in paragraph at lines 85--86
-[][] 
- []
-
-
-Overfull \hbox (91.25137pt too wide) in paragraph at lines 85--86
-[][] 
- []
-
-
-Overfull \hbox (91.25137pt too wide) in paragraph at lines 85--86
-[][] 
- []
-
-
-Overfull \hbox (85.70135pt too wide) in paragraph at lines 85--86
-[]  
- []
-
-[12]) (C:\Users\Sandra\Documents\GitHub\PL-Museu\relatório.bbl [13]
-
-LaTeX Warning: Empty `thebibliography' environment on input line 3.
-
-) [14
-
-] (C:\Users\Sandra\Documents\GitHub\PL-Museu\relatório.aux) ) 
+]) [16]
+("C:\Users\Patrícia\Desktop\LEI 3.2\PL\PL-Museu\relatório.aux") ) 
 Here is how much of TeX's memory you used:
- 2719 strings out of 493921
- 35227 string characters out of 3147279
- 219490 words of memory out of 3000000
- 6016 multiletter control sequences out of 15000+200000
- 11763 words of font info for 41 fonts, out of 3000000 for 9000
+ 2858 strings out of 493921
+ 37186 string characters out of 3144864
+ 221066 words of memory out of 3000000
+ 6150 multiletter control sequences out of 15000+200000
+ 11751 words of font info for 41 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 27i,7n,51p,720b,1601s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmmi9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb
-><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmtt10.pfb>
-Output written on relatório.pdf (16 pages, 198998 bytes).
+ 30i,7n,51p,720b,1601s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program File
+s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files (
+x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files (x86
+)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files (x86)/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files (x86)/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmtt10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmu10.pfb>
+Output written on relatório.pdf (18 pages, 215886 bytes).
 PDF statistics:
- 106 PDF objects out of 1000 (max. 8388607)
+ 116 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -79,10 +79,8 @@ A resolução deste trabalho prático passa pelo desenvolvimento de um Filtro de Te
 
 \section*{Estrutura do Relatório} \
 A elaboração deste documento teve por base a estrutura do relatório fornecida pelo docente. \\
-O relatório encontra-se então estruturada da seguinte forma: possui um primeiro capítulo que faz uma contextualização ao assunto tratado neste trabalho, seguindo-se uma introdução onde são apresentadas as metas de aprendizagem pertendidas.\\
-Posteriormente é exposto o tema escolhido para a desenvolver o trabalho e as tarefas que nele estão envolvidas.\\ \\
-FALAR DO CAPITULO DOS REQUISITOS
-\\ \\
+O relatório encontra-se então estruturado da seguinte forma: possuí um primeiro capítulo que faz uma contextualização ao assunto tratado neste trabalho, seguindo-se uma introdução onde são apresentadas as metas de aprendizagem pertendidas.\\
+Posteriormente é exposto o tema escolhido para desenvolver o trabalho e as tarefas que nele estão envolvidas.\\
 Imediatamente após, são exibidas as expressões regulares definidas para extrair do ficheiro XML as informações para a construção da página HTML, mostrando também os estados da aplicação e os módulos desta.\\
 Não menos importante, seguem-se os capitulos de apresentação das estruturas de dados usadas no desenvolvimento do trabalho e dos testes realizados à aplicação com os devidos resultados.
 Por último, faz-se uma análise crítica relativa quer ao desenvolvimento do projeto quer ao seu estado final e ainda é feita uma abordagem ao trabalho futuro.
@@ -90,10 +88,6 @@ Por último, faz-se uma análise crítica relativa quer ao desenvolvimento do proje
 \chapter{Análise e Especificação} \label{ae}
 \section{Descrição informal do problema}
 Dos enunciados propostos o que escolhemos seguir foi o "Museu da Pessoa - tratamento de fotografias". \\Neste enunciado foi-nos pedido que realizassemos um Filtro de Texto em Flex para, através de um ficheiro XML com informações (onde,quando,quem e facto) sobre fotografias que fazem parte do Museu da Pessoa, gerar um álbum em HTML em que sejam mostradas as fotografias em questão, por ordem cronológica, sendo que o título de cada fotografia será o campo "facto". Foi-nos ainda pedido que apresentássemos um índice no ínicio com o nome de todas as pessoas retratadas.
-\section{Especificação do Requisitos}
-\subsection{Dados}
-\subsection{Pedidos}
-\subsection{Relações}
 
 \chapter{Concepção/desenho da Resolução}
 Para a resolução do problema foi necessário definirmos \emph{Expressões Regulares}, estados no Flex e ainda estruturas de dados para guardar a informação filtrada. Nos próximos capítulos iremos descrever detalhadamente cada um destes pontos.
@@ -138,14 +132,14 @@ sortedInsert(&dados, nodo);
 \end{verbatim}
 
 \section{Módulos da Aplicação}
-\textbf{makefile} Ficheiro com a configuração de compliação.\\
+\textbf{makefile} Ficheiro com a configuração de compilação.\\
 \textbf{parser.l} Ficheiro com código necessário para fazer o processamento dos ficheiros XML que contêm a informação. \\
-\textbf{listaligada.h} Ficheiro que contém o código da lista ligada e das funções necessárias para a sua manipulação. \\
+\textbf{listaligada.h} Ficheiro que contém o código necessário à implementação de uma lista ligada e das funções necessárias para a sua manipulação. \\
 \textbf{dados.h} Ficheiro onde se encontra a estrutura definida para guardar a data das fotos. \\
 \textbf{html.h} Ficheiro com o código que gera as páginas em HTML.
 
 \section{Estruturas de Dados}
-Dado ser necessário guradar alguns dados, a estutura de dados escolhida foi a lista ligada. Esta estrutura possui um campo para guardar a data da fotografia, o facto, breve descrição da foto,o nome do ficheiro da foto e por último, um campo quem, que se destina a guardar os nomes das pessoas de quem se tratam as fotos.
+Dado ser necessário guradar alguns dados, a estutura de dados escolhida foi a lista ligada. Esta estrutura possui um campo para guardar a data da fotografia, o facto, breve descrição da foto, o nome do ficheiro da foto e por último, um campo quem, que se destina a guardar os nomes das pessoas retratadas.
 
 \begin{lstlisting}[language=C]
 struct data {
@@ -175,16 +169,19 @@ os respectivos resultados obtidos:
 
 \chapter{Conclusão} \label{concl}
 A realização deste projeto foi fundamental para se consolidar a matéria leccionada quer nas aulas práticas quer nas aula teóricas, uma vez que as técnicas de utilização de expressões regulares aí aprendidas facilitou a implementação do problema. Estas técnicas pertimitiram recolher de forma eficiente e clara as informações pertendidas.\\
+Foi ainda possível ao grupo aprender a trabalhar com o básico da linguagem HTML que nunca tinha sido utilizada por qualquer dos elementos.
 O projeto  "Museu da Pessoa - tratamento de fotografias" foi muito enriquecedor, dado que obrigou a dedicar um porção de tempo e a refinar as qualidades do grupo na utilização do Flex e na construção das expressões regulares.
 
 \appendix
-\chapter{Código do Programa}
-
-
+\chapter{Código Flex}
 \lstinputlisting{parser.l} %input de um ficheiro
+\chapter{Código da Lista Ligada}
+\lstinputlisting{listaligada.c}
+\chapter{Código para gerar o HTML}
+\lstinputlisting{html.c}
 
-\bibliographystyle{alpha}
-\bibliography{../Bibs/lp,prh}
+
+
 
 
 
