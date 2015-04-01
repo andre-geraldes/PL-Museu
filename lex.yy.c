@@ -1929,7 +1929,7 @@ int yywrap()
 int main()
 { 
 	FILE * html;
-	html = fopen("new.html","w");
+	html = fopen("museu.html","w");
 	newHeader("Museu da Pessoa", html);
 	yylex(); 
 	pessoas = getNames(dados,k);
