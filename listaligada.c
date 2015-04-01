@@ -4,7 +4,7 @@
 void sortedInsert(struct listaLigada** head_ref, struct listaLigada* new_node)
 {
     struct listaLigada* atual;
-    /* Special case for the head end */
+   
     if (*head_ref == NULL || (comparaDatas((*head_ref)->datay, new_node->datay) == 1))
     {
         new_node->next = *head_ref;
@@ -12,7 +12,7 @@ void sortedInsert(struct listaLigada** head_ref, struct listaLigada* new_node)
     }
     else
     {
-        /* Locate the node before the point of insertion */
+        /* Encontrar o nodo antes de inserir */
         atual = *head_ref;
         while (atual->next != NULL &&
                (comparaDatas(atual->next->datay, new_node->datay) != 1))
@@ -24,6 +24,7 @@ void sortedInsert(struct listaLigada** head_ref, struct listaLigada* new_node)
     }
 }
 
+/*Função que cria um novo nodo de listaligada */
 struct listaLigada *novoNodo(struct data d, char * n, char * q, char * f){
     struct listaLigada * new = (struct listaLigada *) malloc(sizeof(struct listaLigada));
 	new->datay = d;
@@ -36,7 +37,7 @@ struct listaLigada *novoNodo(struct data d, char * n, char * q, char * f){
 }
 
 
-/** Função que compara duas datas, retorna 1 se a data1 for mais recente **/
+/* Função que compara duas datas, retorna 1 se a data1 for mais recente **/
 int comparaDatas(struct data data1, struct data data2){
 	if(data1.ano > data2.ano)return 1;
 	else if(data1.ano < data2.ano) return -1;
@@ -51,13 +52,13 @@ int comparaDatas(struct data data1, struct data data2){
     return -1;
 }
 
-/** Função para utilização do qsort */
+/* Função para utilização do qsort */
 int compare (const void * a, const void * b)
 {
     return strcmp (*(const char **) a, *(const char **) b);
 }
 
-/** Função que retira os nomes da lista ligada, ordena e guarda num array de strings */
+/* Função que retira os nomes da lista ligada, ordena e guarda num array de strings */
 char ** getNames(struct listaLigada* l, int k){
 	int maior = 0;
 	int i;

@@ -15,6 +15,7 @@ struct data da;
 struct listaLigada * dados;
 struct listaLigada * nodo;
 
+/* Função que verifica se um determinado char é um digito*/
 int digito(char d){
 	int x = 0;
 	if (d >= '0' && d <= '9') x = 1;
@@ -47,6 +48,7 @@ struct data breakFoto (char * d){
 	return new;
 }
 
+/* Função para remover tabs e espaços seguidos de uma string */
 char * trim(char * q){
 	int i, j;
 	for(i=0; q[i] != '\0'; i++){
