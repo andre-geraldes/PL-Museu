@@ -101,7 +101,41 @@ Para a resolução do problema foi necessário definirmos \emph{Expressões Regulare
 As expressões regulares definidas visam extrair do ficheiro XML as informações necessárias para a construção da página HTML: foto, quando, onde, quem e facto. Após analisar cuidadosamente a estrutura dos ficheiros XML em questão chegamos às seguintes \emph{Expressões Regulares}:\\ \textbf{QUEM} "<"(?i:QUEM)">" \\ \textbf{FACTO} "<"(?i:FACTO)">" \\ \textbf{FOTO} "<"(?i:FOTO)" "(?i:FICHEIRO)"=\"" \\ \textbf{QUANDO} "<"(?i:QUANDO)" "(?i:DATA)"=\"" \\ 
 
 \section{Estados da Aplicação}
+\textbf{Estado QUEM}\\
+Quando é encontarada a palavra "QUEM" são guardadas as palavras seguintes, com o devido tratamento dado pela função trim definida, uma vez que estas serão referentes a quem pertence a foto.
+\begin{verbatim}
+"<"(?i:QUEM)">" 					{ BEGIN QUEM1; }
+<QUEM1>"<"	 						{ BEGIN INITIAL; } 
+<QUEM1>[^<]+						{ quem = strdup(yytext); quem = trim(quem); }
+\end{verbatim}
 
+\textbf{Estado FACTO}\\
+Quando é identificada a expressão "FACTO" é guardada a informação que a esta se segue, através da função\textit{ strdup}.
+\begin{verbatim}
+"<"(?i:FACTO)">"					{ BEGIN FACTO1; }
+<FACTO1>"<"	 						{ BEGIN INITIAL; } 
+<FACTO1>[^<]+	 					{ facto = strdup(yytext); }
+\end{verbatim}
+
+\textbf{Estado QUANDO}\\
+Aquando da análise léxica, se for detetada a palavra "QUANDO" a data a esta referente é guardada. Posteriormente é chamada a função breakFoto que recebe como parâmetro a string guardada e converte-a num tipo de dados \textit{struct data}. 
+\begin{verbatim}
+"<"(?i:QUANDO)" "(?i:DATA)"=\""		{ BEGIN QUANDO1; }
+<QUANDO1>"\""						{ BEGIN INITIAL; } 
+<QUANDO1>[^\"]+ 					{ quando = strdup(yytext); 
+da = breakFoto(quando); }
+\end{verbatim}
+
+\textbf{Estado FOTO} \\
+Encontrada a palavra "FOTO" é criado um novo nodo na lista ligada que contêm a informação referentes a outras fotos. Depois de inserido o novo nodo, a lista é ordenada pela data das fotos.
+\begin{verbatim}
+"<"(?i:FOTO)" "(?i:FICHEIRO)"=\""	{ BEGIN FOTO1; }
+<FOTO1>"\""	 						{ BEGIN INITIAL; } 
+<FOTO1>[^\"]+						{ foto = strdup(yytext); 
+nodo = novoNodo(da, foto, quem, facto);
+sortedInsert(&dados, nodo);
+}
+\end{verbatim}
 
 \section{Módulos da Aplicação}
 \textbf{makefile} Ficheiro com a configuração de compliação.\\

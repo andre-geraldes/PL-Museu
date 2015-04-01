@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.3.31)  1 APR 2015 10:28
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.3.31)  1 APR 2015 11:12
 entering extended mode
 **relatório.tex
 (C:\Users\Sandra\Documents\GitHub\PL-Museu\relatório.tex
@@ -155,27 +155,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 101--102
 
 [5
 
-] ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+] [6] ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2014/09/06 1.5e listings language file
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
 File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
 )
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 117.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 151.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 117.
- [6]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 151.
+ [7]
 Cap\'{\i }tulo 4.
-[7
+[8
 
 ]
 Cap\'{\i }tulo 5.
-[8
+[9
 
 ]
 Ap\^endice A.
@@ -187,9 +187,9 @@ File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <9> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 3.
- [9
+ [10
 
-] [10]
+] [11]
 Overfull \hbox (76.80139pt too wide) in paragraph at lines 79--81
 [][][][][] 
  []
@@ -389,19 +389,19 @@ Overfull \hbox (85.70135pt too wide) in paragraph at lines 85--86
 []  
  []
 
-[11]) (C:\Users\Sandra\Documents\GitHub\PL-Museu\relatório.bbl [12]
+[12]) (C:\Users\Sandra\Documents\GitHub\PL-Museu\relatório.bbl [13]
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
-) [13
+) [14
 
 ] (C:\Users\Sandra\Documents\GitHub\PL-Museu\relatório.aux) ) 
 Here is how much of TeX's memory you used:
- 2711 strings out of 493921
- 35118 string characters out of 3147279
- 219761 words of memory out of 3000000
- 6009 multiletter control sequences out of 15000+200000
- 11595 words of font info for 40 fonts, out of 3000000 for 9000
+ 2719 strings out of 493921
+ 35227 string characters out of 3147279
+ 219490 words of memory out of 3000000
+ 6016 multiletter control sequences out of 15000+200000
+ 11763 words of font info for 41 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  27i,7n,51p,720b,1601s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files
@@ -415,10 +415,11 @@ cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb
 am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/M
 iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmti10.pfb>
-Output written on relatório.pdf (15 pages, 178285 bytes).
+pe1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmtt10.pfb>
+Output written on relatório.pdf (16 pages, 198998 bytes).
 PDF statistics:
- 99 PDF objects out of 1000 (max. 8388607)
+ 106 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

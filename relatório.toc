@@ -9,10 +9,10 @@
 \contentsline {chapter}{\numberline {3}Concep\c c\~ao/desenho da Resolu\c c\~ao}{5}
 \contentsline {section}{\numberline {3.1}Express\~oes Regulares}{5}
 \contentsline {section}{\numberline {3.2}Estados da Aplica\c c\~ao}{5}
-\contentsline {section}{\numberline {3.3}M\'odulos da Aplica\c c\~ao}{5}
+\contentsline {section}{\numberline {3.3}M\'odulos da Aplica\c c\~ao}{6}
 \contentsline {section}{\numberline {3.4}Estruturas de Dados}{6}
-\contentsline {chapter}{\numberline {4}Codifica\c c\~ao e Testes}{7}
-\contentsline {section}{\numberline {4.1}Alternativas, Decis\~oes e Problemas de Implementa\c c\~ao}{7}
-\contentsline {section}{\numberline {4.2}Testes realizados e Resultados}{7}
-\contentsline {chapter}{\numberline {5}Conclus\~ao}{8}
-\contentsline {chapter}{\numberline {A}C\'odigo do Programa}{9}
+\contentsline {chapter}{\numberline {4}Codifica\c c\~ao e Testes}{8}
+\contentsline {section}{\numberline {4.1}Alternativas, Decis\~oes e Problemas de Implementa\c c\~ao}{8}
+\contentsline {section}{\numberline {4.2}Testes realizados e Resultados}{8}
+\contentsline {chapter}{\numberline {5}Conclus\~ao}{9}
+\contentsline {chapter}{\numberline {A}C\'odigo do Programa}{10}
