@@ -80,10 +80,11 @@ char * trim(char * q){
 
 "<"(?i:FOTO)" "(?i:FICHEIRO)"=\""	{ BEGIN FOTO1; }
 <FOTO1>"\""	 						{ BEGIN INITIAL; } 
-<FOTO1>[^\"]+						{ foto = strdup(yytext); 
-									  nodo = novoNodo(da, foto, quem, facto);
-									  sortedInsert(&dados, nodo);
-}
+<FOTO1>[^\"]+						{ foto = strdup(yytext); }
+									  
+"</foto>"							{	nodo = novoNodo(da, foto, quem, facto);
+									  	sortedInsert(&dados, nodo); }						
+
 
 .|\n								{ ; }
 %%
