@@ -53,13 +53,14 @@ int comparaDatas(struct data data1, struct data data2){
 
 void getNames(struct listaLigada* l, int k, char ** c){
 	int maior = 0;
+	int i;
 	struct listaLigada * n = l;
 	while(n != NULL){
 		if(strlen(n->quem) > maior) maior = strlen(n->quem);
 		n = n->next;
 	}
 	char new[k][maior]; 
-	for(int i = 0; i < k; i++) {
+	for(i = 0; i < k; i++) {
 		strcpy(new[i],l->quem);
 		l = l->next;
 	}

@@ -571,11 +571,7 @@ char * trim(char * q){
 
 
 
-<<<<<<< Updated upstream
-#line 573 "lex.yy.c"
-=======
-#line 567 "lex.yy.c"
->>>>>>> Stashed changes
+#line 575 "lex.yy.c"
 
 #define INITIAL 0
 #define QUEM1 1
@@ -768,11 +764,7 @@ YY_DECL
     
 #line 69 "parser.l"
 
-<<<<<<< Updated upstream
-#line 766 "lex.yy.c"
-=======
-#line 755 "lex.yy.c"
->>>>>>> Stashed changes
+#line 768 "lex.yy.c"
 
 	if ( !(yy_init) )
 		{
@@ -937,11 +929,7 @@ YY_RULE_SETUP
 #line 92 "parser.l"
 ECHO;
 	YY_BREAK
-<<<<<<< Updated upstream
-#line 931 "lex.yy.c"
-=======
-#line 920 "lex.yy.c"
->>>>>>> Stashed changes
+#line 933 "lex.yy.c"
 case YY_STATE_EOF(INITIAL):
 case YY_STATE_EOF(QUEM1):
 case YY_STATE_EOF(FACTO1):

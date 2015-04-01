@@ -18,7 +18,7 @@ void endHtml(FILE * fp) {
 void addImg(char * nomeImg, char * descricao, FILE *fp){
 	fputs("<body>",fp);
 	fprintf(fp, "<center><font face=arial><font size=2><font color=#006600><h2>%s</h2></font></font></font>", descricao);
-	fprintf(fp, "<img class=resize src=\"%s\" alt=\"%s\" style=\"width:354px;height:508px\"></center>", nomeImg, descricao);
+	fprintf(fp, "<img class=resize src=\"%s\" alt=\"%s\" style=\"width:354px;height:508px\"></center><br>", nomeImg, descricao);
 	fputs("</body>",fp);
 }
 
