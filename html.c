@@ -1,25 +1,25 @@
 #include "html.h"
 
 void newHeader(char *tit, FILE *fp) {
-	fputs("<!DOCTYPE html>",fp);
-	fputs("<html>",fp);
-	fputs("<meta charset=utf-8>",fp);
-	fputs("<link rel=stylesheet type=text/css href=mystyle.css>",fp);
-	fprintf(fp,"<body bgcolor= #0C090A>");
-	fprintf(fp, "<title>%s</title>", tit);
-	fputs("<font color=##95B9C7><font face=arial><font size=5><h1><center>Museu da Pessoa</center></h1></font></font></font>",fp);
-	fputs("</head>",fp);
+	fputs("<!DOCTYPE html>\n",fp);
+	fputs("<html>\n",fp);
+	fputs("<meta charset=utf-8>\n",fp);
+	fputs("<link rel=stylesheet type=text/css href=mystyle.css>\n",fp);
+	fprintf(fp,"<body bgcolor= #0C090A>\n");
+	fprintf(fp, "<title>%s</title>\n", tit);
+	fputs("<font color=##95B9C7><font face=arial><font size=5><h1><center>Museu da Pessoa</center></h1></font></font></font>\n",fp);
+	fputs("</head>\n",fp);
 }
 
 void endHtml(FILE * fp) {
-	fputs("</html>",fp);
+	fputs("</html>\n",fp);
 }
 
 void addImg(char * nomeImg, char * descricao, FILE *fp){
-	fputs("<body>",fp);
-	fprintf(fp, "<center><div class=polaroid><font face=arial><font size=2><font color=#F0FFFF><h2>%s</h2></font></font></font>", descricao);
-	fprintf(fp, "<img src=\"%s\" alt=\"%s\" style=\"width:354px;height:508px\"><br></div></center>", nomeImg, descricao);
-	fputs("</body>",fp);
+	fputs("<body>\n",fp);
+	fprintf(fp, "<center><div class=polaroid><font face=arial><font size=2><font color=#F0FFFF><h2>%s</h2></font></font></font>\n", descricao);
+	fprintf(fp, "<img src=\"%s\" alt=\"%s\" style=\"width:354px;height:508px\"><br></div></center>\n", nomeImg, descricao);
+	fputs("</body>\n",fp);
 }
 
 void insertImg(struct listaLigada * a, FILE *fp) {
@@ -31,14 +31,4 @@ void insertImg(struct listaLigada * a, FILE *fp) {
     }
 }
 
-void criaIndex(char ** nomes, int k, FILE *fp){
-	int i;
-	fprintf(fp, "<center><div class=polaroid><font face=arial><font size=2><font color=#F0FFFF><h1>Índice de pessoas retratadas:</h1></font></font></font>");
-	fputs("<div class=\"center\">",fp);
-	fputs("<ol>",fp);
-	for(i = 0; i < k; i++){
-		fprintf(fp, "<center><div class=polaroid><font face=arial><font size=3><font color=#F0FFFF><li>%s</li></font></font></font>", nomes[i]);
-	}
-	fputs("</ol>",fp);
-	fputs("</div>",fp);
-}
+

@@ -9,7 +9,6 @@ char * foto;
 char * facto;
 char * quem;
 char * quando;
-char ** pessoas;
 int k = 0;
 struct data da;
 struct listaLigada * dados;
@@ -104,8 +103,6 @@ int main()
 	html = fopen("museu.html","w");
 	newHeader("Museu da Pessoa", html);
 	yylex(); 
-	pessoas = getNames(dados,k);
-	criaIndex(pessoas,k,html);
 	insertImg(dados, html);
 	endHtml(html);
 	fclose(html);

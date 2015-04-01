@@ -61,7 +61,7 @@ int compare (const void * a, const void * b)
 /* Função que retira os nomes da lista ligada, ordena e guarda num array de strings */
 char ** getNames(struct listaLigada* l, int k){
 	int maior = 0;
-	int i;
+	int i,h;
 	struct listaLigada * n = l;
 	while(n != NULL){
 		if(strlen(n->quem) > maior) maior = strlen(n->quem);
@@ -73,7 +73,7 @@ char ** getNames(struct listaLigada* l, int k){
 		new[i] = malloc(maior* sizeof(l->quem));
 		strcpy(new[i],l->quem);
 		if(new[i][0] == ' ') {
-			for(int h = 0; h < strlen(new[i]); h++) new[i][h] = new[i][h+1];
+			for(h = 0; h < strlen(new[i]); h++) new[i][h] = new[i][h+1];
 		}
 		l = l->next;
 	}
