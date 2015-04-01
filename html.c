@@ -31,3 +31,12 @@ void insertImg(struct listaLigada * a, FILE *fp) {
     }
 }
 
+void criaIndex(char ** nomes, int k, FILE *fp){
+	int i;
+	fprintf(fp, "<center><div class=polaroid><font face=arial><font size=2><font color=#F0FFFF><h1>Índice de pessoas retratadas:</h1></font></font></font>");
+	fputs("<ol>",fp);
+	for(i = 0; i < k; i++){
+		fprintf(fp, "<center><div class=polaroid><font face=arial><font size=3><font color=#F0FFFF><li>%s</li></font></font></font>", nomes[i]);
+	}
+	fputs("</ol>",fp);
+}

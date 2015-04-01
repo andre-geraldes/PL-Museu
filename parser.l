@@ -103,7 +103,7 @@ int main()
 	newHeader("Museu da Pessoa", html);
 	yylex(); 
 	pessoas = getNames(dados,k);
-	//inserir aqui adicionar indice
+	criaIndex(pessoas,k,html);
 	insertImg(dados, html);
 	endHtml(html);
 	fclose(html);

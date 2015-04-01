@@ -12,4 +12,6 @@ void addImg(char * nomeImg, char * descricao, FILE *fp);
 
 void insertImg(struct listaLigada * a, FILE *fp);
 
+void criaIndex(char ** nomes, int k, FILE *fp);
+
 #endif

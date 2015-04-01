@@ -20,7 +20,7 @@ struct listaLigada *novoNodo(struct data d, char * n, char * q, char * f);
 
 int comparaDatas(struct data data1, struct data data2);
 
-void printList(struct listaLigada * head);
+int compare (const void * a, const void * b);
 
 char ** getNames(struct listaLigada* l, int k);
 

@@ -51,6 +51,13 @@ int comparaDatas(struct data data1, struct data data2){
     return -1;
 }
 
+/** Função para utilização do qsort */
+int compare (const void * a, const void * b)
+{
+    return strcmp (*(const char **) a, *(const char **) b);
+}
+
+/** Função que retira os nomes da lista ligada, ordena e guarda num array de strings */
 char ** getNames(struct listaLigada* l, int k){
 	int maior = 0;
 	int i;
@@ -64,18 +71,11 @@ char ** getNames(struct listaLigada* l, int k){
 	for(i = 0; i < k; i++) {
 		new[i] = malloc(maior* sizeof(l->quem));
 		strcpy(new[i],l->quem);
+		if(new[i][0] == ' ') {
+			for(int h = 0; h < strlen(new[i]); h++) new[i][h] = new[i][h+1];
+		}
 		l = l->next;
 	}
+	qsort(new, k, sizeof(const char *), compare);
 	return new;
-}
-
-/* Function to print linked list */
-void printList(struct listaLigada* head)
-{
-    struct listaLigada* temp = head;
-    while(temp != NULL)
-    {
-        printf("%s\n", temp->quem);
-        temp = temp->next;
-    }
 }

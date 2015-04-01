@@ -1933,7 +1933,7 @@ int main()
 	newHeader("Museu da Pessoa", html);
 	yylex(); 
 	pessoas = getNames(dados,k);
-	for(int hj = 0; hj < k; hj++) printf("%s\n",pessoas[hj]);
+	criaIndex(pessoas,k,html);
 	insertImg(dados, html);
 	endHtml(html);
 	fclose(html);
