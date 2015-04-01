@@ -102,6 +102,8 @@ int main()
 	html = fopen("new.html","w");
 	newHeader("Museu da Pessoa", html);
 	yylex(); 
+	pessoas = getNames(dados,k);
+	//inserir aqui adicionar indice
 	insertImg(dados, html);
 	endHtml(html);
 	fclose(html);

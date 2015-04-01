@@ -51,7 +51,7 @@ int comparaDatas(struct data data1, struct data data2){
     return -1;
 }
 
-void getNames(struct listaLigada* l, int k, char ** c){
+char ** getNames(struct listaLigada* l, int k){
 	int maior = 0;
 	int i;
 	struct listaLigada * n = l;
@@ -59,12 +59,14 @@ void getNames(struct listaLigada* l, int k, char ** c){
 		if(strlen(n->quem) > maior) maior = strlen(n->quem);
 		n = n->next;
 	}
-	char new[k][maior]; 
+	char ** new;
+	new = malloc(k * maior * sizeof(char*)); 
 	for(i = 0; i < k; i++) {
+		new[i] = malloc(maior* sizeof(l->quem));
 		strcpy(new[i],l->quem);
 		l = l->next;
 	}
-	c = new;
+	return new;
 }
 
 /* Function to print linked list */

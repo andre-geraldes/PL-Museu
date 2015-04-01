@@ -30,3 +30,4 @@ void insertImg(struct listaLigada * a, FILE *fp) {
         temp = temp->next;
     }
 }
+

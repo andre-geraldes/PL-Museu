@@ -22,4 +22,6 @@ int comparaDatas(struct data data1, struct data data2);
 
 void printList(struct listaLigada * head);
 
+char ** getNames(struct listaLigada* l, int k);
+
 #endif
