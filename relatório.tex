@@ -78,13 +78,13 @@ A resolução deste trabalho prático passa pelo desenvolvimento de um Filtro de Te
 
 
 \section*{Estrutura do Relatório} \
-explicar como está organizado o documento, referindo os capítulos existentes
-e a sua articulação explicando o conteúdo de cada um.
-No capítulo \ref{ae} faz-se uma análise detalhada do problema proposto
-de modo a poder-se especificar  as entradas, resultados e formas de transformação.\\
-etc. \ldots\\
-No capítulo~\ref{concl} termina-se o relatório com uma síntese do que foi dito,
-as conclusões e o trab futuro
+A elaboração deste documento teve por base a estrutura do relatório fornecida pelo docente. \\
+O relatório encontra-se então estruturada da seguinte forma: possui um primeiro capítulo que faz uma contextualização ao assunto tratado neste trabalho, seguindo-se uma introdução onde são apresentadas as metas de aprendizagem pertendidas.\\
+Posteriormente é exposto o tema escolhido para a desenvolver o trabalho e as tarefas que nele estão envolvidas.
+{\color{red}falar do capitulo da especificação de requisitos}
+Imediatamente após, são exibidas as expressões regulares definidas para extrair do ficheiro XML as informações para a construção da página HTML, mostrando também os estados da aplicação e os módulos desta.\\
+Não menos importante, seguem-se os capitulos de apresentação das estruturas de dados usadas no desenvolvimento do trabalho e dos testes realizados à aplicação com os devidos resultados.
+Por último, faz-se uma análise crítica relativa quer ao desenvolvimento do projeto quer ao seu estado final e ainda é feita uma abordagem ao trabalho futuro.
 
 \chapter{Análise e Especificação} \label{ae}
 \section{Descrição informal do problema}
@@ -97,12 +97,36 @@ Dos enunciados propostos o que escolhemos seguir foi o "Museu da Pessoa - tratam
 \chapter{Concepção/desenho da Resolução}
 Para a resolução do problema foi necessário definirmos \emph{Expressões Regulares}, estados no Flex e ainda estruturas de dados para guardar a informação filtrada. Nos próximos capítulos iremos descrever detalhadamente cada um destes pontos.
 \section{Expressões Regulares}
-As expressões regulares definidas visam extrair do ficheiro XML as informações necessárias para a construção da página HTML: foto, quando, onde, quem e facto. Após analisar cuidadosamente a estrutura dos ficheiros XML em questão chegamos às seguintes \emph{Expressões Regulares}:\\ \textbf{QUEM} "<"(?i:QUEM)">" \\ \textbf{FACTO} "<"(?i:FACTO)">" \\ \textbf{FOTO} "<"(?i:FOTO)" "(?i:FICHEIRO)"=\"" \\ \textbf{QUANDO} "<"(?i:QUANDO)" "(?i:DATA)"=\"" \\ \textbf{ONDE} ????
+As expressões regulares definidas visam extrair do ficheiro XML as informações necessárias para a construção da página HTML: foto, quando, onde, quem e facto. Após analisar cuidadosamente a estrutura dos ficheiros XML em questão chegamos às seguintes \emph{Expressões Regulares}:\\ \textbf{QUEM} "<"(?i:QUEM)">" \\ \textbf{FACTO} "<"(?i:FACTO)">" \\ \textbf{FOTO} "<"(?i:FOTO)" "(?i:FICHEIRO)"=\"" \\ \textbf{QUANDO} "<"(?i:QUANDO)" "(?i:DATA)"=\"" \\ 
 
 \section{Estados da Aplicação}
-\section{Módulos da Aplicação}
-\section{Estruturas de Dados}
 
+
+\section{Módulos da Aplicação}
+\textbf{makefile} Ficheiro com a configuração de compliação.\\
+\textbf{parser.l} Ficheiro com código necessário para fazer o processamento dos ficheiros XML que contêm a informação. \\
+\textbf{listaligada.h} Ficheiro que contém o código da lista ligada e das funções necessárias para a sua manipulação. \\
+\textbf{dados.h} Ficheiro onde se encontra a estrutura definida para guardar a data das fotos. \\
+\textbf{html.h} Ficheiro com o código que gera as páginas em HTML.
+
+\section{Estruturas de Dados}
+Dado ser necessário guradar alguns dados, a estutura de dados escolhida foi a lista ligada. Esta estrutura possui um campo para guardar a data da fotografia, o facto, breve descrição da foto,o nome do ficheiro da foto e por último, um campo quem, que se destina a guardar os nomes das pessoas de quem se tratam as fotos.
+
+\begin{lstlisting}[language=C]
+struct data {
+	int ano;
+	int mes;
+	int dia:
+};
+
+struct listaLigada {
+	struct data datay;
+	char *nome;
+	char *quem;
+	char *fato;
+	struct listaLigada * next;
+};
+\end{lstlisting}
 
 
 \chapter{Codificação e Testes}

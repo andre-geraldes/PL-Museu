@@ -10,9 +10,9 @@
 \contentsline {section}{\numberline {3.1}Express\~oes Regulares}{4}
 \contentsline {section}{\numberline {3.2}Estados da Aplica\c c\~ao}{4}
 \contentsline {section}{\numberline {3.3}M\'odulos da Aplica\c c\~ao}{4}
-\contentsline {section}{\numberline {3.4}Estruturas de Dados}{4}
-\contentsline {chapter}{\numberline {4}Codifica\c c\~ao e Testes}{5}
-\contentsline {section}{\numberline {4.1}Alternativas, Decis\~oes e Problemas de Implementa\c c\~ao}{5}
-\contentsline {section}{\numberline {4.2}Testes realizados e Resultados}{5}
-\contentsline {chapter}{\numberline {5}Conclus\~ao}{6}
-\contentsline {chapter}{\numberline {A}C\'odigo do Programa}{7}
+\contentsline {section}{\numberline {3.4}Estruturas de Dados}{5}
+\contentsline {chapter}{\numberline {4}Codifica\c c\~ao e Testes}{6}
+\contentsline {section}{\numberline {4.1}Alternativas, Decis\~oes e Problemas de Implementa\c c\~ao}{6}
+\contentsline {section}{\numberline {4.2}Testes realizados e Resultados}{6}
+\contentsline {chapter}{\numberline {5}Conclus\~ao}{7}
+\contentsline {chapter}{\numberline {A}C\'odigo do Programa}{8}
