@@ -3,8 +3,9 @@
 void newHeader(char *tit, FILE *fp) {
 	fputs("<!DOCTYPE html>",fp);
 	fputs("<html>",fp);
+	//fprintf(fp,"<body bgcolor=#CCFF99>");
 	fprintf(fp, "<title>%s</title>", tit);
-	fputs("<h1>Museu da Pessoa</h1>",fp);
+	fputs("<font color=#006699><font face=arial><font size=5><h1><center>Museu da Pessoa</center></h1></font></font></font>",fp);
 	fputs("</head>",fp);
 }
 
@@ -14,8 +15,8 @@ void endHtml(FILE * fp) {
 
 void addImg(char * nomeImg, char * descricao, FILE *fp){
 	fputs("<body>",fp);
-	fprintf(fp, "<h2>%s</h2>", descricao);
-	fprintf(fp, "<img src=\"%s\" alt=\"%s\" style=\"width:354px;height:508px\">", nomeImg, descricao);
+	fprintf(fp, "<center><font face=arial><font color=#006600><h2>%s</h2></font></font>", descricao);
+	fprintf(fp, "<img src=\"%s\" alt=\"%s\" style=\"width:354px;height:508px\"></center>", nomeImg, descricao);
 	fputs("</body>",fp);
 }
 

@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <string.h>
 #include "data.h"
-#include "listaLigada.h"
+#include "listaligada.h"
 #include "html.h"
 char * foto;
 char * facto;
