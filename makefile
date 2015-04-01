@@ -6,3 +6,4 @@ teste: parser.l listaligada.c html.c
 clean:
 	rm lex.yy.c
 	rm teste
+	rm new.html

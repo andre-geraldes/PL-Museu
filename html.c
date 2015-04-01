@@ -19,8 +19,11 @@ void addImg(char * nomeImg, char * descricao, FILE *fp){
 	fputs("</body>",fp);
 }
 
-/*void insertImg(struct nodo_avl * a) {
-	while (a != NULL){
-
-	}
-}*/
+void insertImg(struct listaLigada * a, FILE *fp) {
+	struct listaLigada* temp = a;
+    while(temp != NULL)
+    {
+        addImg(temp->nome, temp->quem, fp);
+        temp = temp->next;
+    }
+}

@@ -372,12 +372,12 @@ struct yy_trans_info
 static yyconst flex_int16_t yy_accept[63] =
     {   0,
         0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
-       15,   13,   13,    3,    2,    6,    5,    9,    8,   12,
-       11,    0,    0,    3,    6,    9,   12,    0,    0,    0,
+       15,   13,   13,    3,    2,    6,    5,   12,   11,    9,
+        8,    0,    0,    3,    6,   12,    9,    0,    0,    0,
         0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
         0,    1,    4,    0,    0,    0,    0,    0,    0,    0,
-        0,    0,    0,    0,    0,    0,    0,    0,   10,    0,
-        7,    0
+        0,    0,    0,    0,    0,    0,    0,    0,    7,    0,
+       10,    0
     } ;
 
 static yyconst flex_int32_t yy_ec[256] =
@@ -501,8 +501,7 @@ char *yytext;
 /* Declaracoes C diversas */
 #include <stdio.h>
 #include <string.h>
-//#include "data.h"
-//#include "estrutura.h"
+#include "data.h"
 #include "listaLigada.h"
 #include "html.h"
 char * foto;
@@ -513,12 +512,23 @@ struct data da;
 struct listaLigada * dados = NULL ;
 struct listaLigada * nodo;
 
+int digito(char d){
+	int x = 0;
+	if (d >= '0' && d <= '9') x = 1;
+	return x;
+}
+
 /* Funçao que converte uma string num tipo de dados struct data */
 struct data breakFoto (char * d){
 	struct data new;
-	char ano[5];
-	char mes[3];
-	char dia[3];
+	char ano[5], mes[3], dia[3];
+	if(!digito(quando[0])) {
+		new.ano = 1;
+		new.mes = 1;
+		new.dia = 1;
+		return new;
+	}
+
 	int i = 0, j = 0;
 	for(i=0; i < 4; i++) ano[i] = d[j++];
 	ano[i] = '\0';
@@ -535,10 +545,13 @@ struct data breakFoto (char * d){
 }
 
 char * trim(char * q){
-	int i;
+	int i, j;
 	for(i=0; q[i] != '\0'; i++){
-		if(q[i] == '\n' || q[i] == '\t') q++;
-	}
+		if(q[i] == '\n' || q[i] == '\t') q[i] = ' ';
+		if((q[i] == ' ') && (q[i+1] == ' ')){
+			for(j=i; q[j] != '\0'; j++) q[j] = q[j+1];
+		} 
+	}	
 	return q;
 }
 
@@ -546,7 +559,7 @@ char * trim(char * q){
 
 
 
-#line 550 "lex.yy.c"
+#line 563 "lex.yy.c"
 
 #define INITIAL 0
 #define QUEM1 1
@@ -732,9 +745,9 @@ YY_DECL
 	register char *yy_cp, *yy_bp;
 	register int yy_act;
     
-#line 54 "parser.l"
+#line 67 "parser.l"
 
-#line 738 "lex.yy.c"
+#line 751 "lex.yy.c"
 
 	if ( !(yy_init) )
 		{
@@ -819,83 +832,85 @@ do_action:	/* This label is used only to access EOF actions. */
 
 case 1:
 YY_RULE_SETUP
-#line 55 "parser.l"
+#line 68 "parser.l"
 { BEGIN QUEM1; }
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
-#line 56 "parser.l"
+#line 69 "parser.l"
 { BEGIN INITIAL; } 
 	YY_BREAK
 case 3:
 /* rule 3 can match eol */
 YY_RULE_SETUP
-#line 57 "parser.l"
+#line 70 "parser.l"
 { quem = strdup(yytext); quem = trim(quem); }
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
-#line 59 "parser.l"
+#line 72 "parser.l"
 { BEGIN FACTO1; }
 	YY_BREAK
 case 5:
 YY_RULE_SETUP
-#line 60 "parser.l"
+#line 73 "parser.l"
 { BEGIN INITIAL; } 
 	YY_BREAK
 case 6:
 /* rule 6 can match eol */
 YY_RULE_SETUP
-#line 61 "parser.l"
+#line 74 "parser.l"
 { facto = strdup(yytext); }
 	YY_BREAK
 case 7:
 YY_RULE_SETUP
-#line 63 "parser.l"
-{ BEGIN FOTO1; }
+#line 76 "parser.l"
+{ BEGIN QUANDO1; }
 	YY_BREAK
 case 8:
 YY_RULE_SETUP
-#line 64 "parser.l"
+#line 77 "parser.l"
 { BEGIN INITIAL; } 
 	YY_BREAK
 case 9:
 /* rule 9 can match eol */
 YY_RULE_SETUP
-#line 65 "parser.l"
-{ foto = strdup(yytext); }
+#line 78 "parser.l"
+{ quando = strdup(yytext); 
+									  da = breakFoto(quando); }
 	YY_BREAK
 case 10:
 YY_RULE_SETUP
-#line 67 "parser.l"
-{ BEGIN QUANDO1; }
+#line 81 "parser.l"
+{ BEGIN FOTO1; }
 	YY_BREAK
 case 11:
 YY_RULE_SETUP
-#line 68 "parser.l"
+#line 82 "parser.l"
 { BEGIN INITIAL; } 
 	YY_BREAK
 case 12:
 /* rule 12 can match eol */
 YY_RULE_SETUP
-#line 69 "parser.l"
-{ quando = strdup(yytext); 
-									  da = breakFoto(quando); 
+#line 83 "parser.l"
+{ foto = strdup(yytext); 
+									  printf("%d %d %d\n", da.ano,da.mes,da.dia);
 									  nodo = novoNodo(da, foto, quem, facto);
-									  sortedInsert(&dados, nodo); }
+									  sortedInsert(&dados, nodo);
+}
 	YY_BREAK
 case 13:
 /* rule 13 can match eol */
 YY_RULE_SETUP
-#line 74 "parser.l"
+#line 89 "parser.l"
 { ; }
 	YY_BREAK
 case 14:
 YY_RULE_SETUP
-#line 75 "parser.l"
+#line 90 "parser.l"
 ECHO;
 	YY_BREAK
-#line 899 "lex.yy.c"
+#line 914 "lex.yy.c"
 case YY_STATE_EOF(INITIAL):
 case YY_STATE_EOF(QUEM1):
 case YY_STATE_EOF(FACTO1):
@@ -1896,7 +1911,7 @@ void yyfree (void * ptr )
 
 #define YYTABLES_NAME "yytables"
 
-#line 75 "parser.l"
+#line 90 "parser.l"
 
 
 
@@ -1911,7 +1926,7 @@ int main()
 	html = fopen("new.html","w");
 	newHeader("Museu da Pessoa", html);
 	yylex(); 
-	printList(dados);
+	insertImg(dados, html);
 	endHtml(html);
 	fclose(html);
 	return 0; 

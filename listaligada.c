@@ -1,25 +1,5 @@
-#include "data.h"
 #include "listaligada.h"
 
-/*void insertElem (struct listaLigada l, struct data d, char * n, char * q, char * f){
-	
-	if( l == NULL){
-		struct listaLigada * new = (struct listaLigada *) malloc(sizeof(struct listaLigada));
-		new->nome = n;
-		new->quem = q;
-		new->fato = f;
-		new->next = NULL;
-	}
-	else {
-		if (comparaDatas(d, l->data) == 1){
-			insertElem(l->next, d, n, q, f);
-		}
-		else {
-			if( )
-		}
-	}
-	return new;
-}*/
 
 void sortedInsert(struct listaLigada** head_ref, struct listaLigada* new_node)
 {

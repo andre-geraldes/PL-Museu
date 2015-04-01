@@ -2,8 +2,7 @@
 /* Declaracoes C diversas */
 #include <stdio.h>
 #include <string.h>
-//#include "data.h"
-//#include "estrutura.h"
+#include "data.h"
 #include "listaLigada.h"
 #include "html.h"
 char * foto;
@@ -14,12 +13,23 @@ struct data da;
 struct listaLigada * dados = NULL ;
 struct listaLigada * nodo;
 
+int digito(char d){
+	int x = 0;
+	if (d >= '0' && d <= '9') x = 1;
+	return x;
+}
+
 /* Funçao que converte uma string num tipo de dados struct data */
 struct data breakFoto (char * d){
 	struct data new;
-	char ano[5];
-	char mes[3];
-	char dia[3];
+	char ano[5], mes[3], dia[3];
+	if(!digito(quando[0])) {
+		new.ano = 1;
+		new.mes = 1;
+		new.dia = 1;
+		return new;
+	}
+
 	int i = 0, j = 0;
 	for(i=0; i < 4; i++) ano[i] = d[j++];
 	ano[i] = '\0';
@@ -36,10 +46,13 @@ struct data breakFoto (char * d){
 }
 
 char * trim(char * q){
-	int i;
+	int i, j;
 	for(i=0; q[i] != '\0'; i++){
-		if(q[i] == '\n' || q[i] == '\t') q++;
-	}
+		if(q[i] == '\n' || q[i] == '\t') q[i] = ' ';
+		if((q[i] == ' ') && (q[i+1] == ' ')){
+			for(j=i; q[j] != '\0'; j++) q[j] = q[j+1];
+		} 
+	}	
 	return q;
 }
 
@@ -60,16 +73,17 @@ char * trim(char * q){
 <FACTO1>"<"	 						{ BEGIN INITIAL; } 
 <FACTO1>[^<]+	 					{ facto = strdup(yytext); }
 
-"<"(?i:FOTO)" "(?i:FICHEIRO)"=\""	{ BEGIN FOTO1; }
-<FOTO1>"\""	 						{ BEGIN INITIAL; } 
-<FOTO1>[^\"]+						{ foto = strdup(yytext); }
-
 "<"(?i:QUANDO)" "(?i:DATA)"=\""		{ BEGIN QUANDO1; }
 <QUANDO1>"\""						{ BEGIN INITIAL; } 
 <QUANDO1>[^\"]+ 					{ quando = strdup(yytext); 
-									  da = breakFoto(quando); 
+									  da = breakFoto(quando); }
+
+"<"(?i:FOTO)" "(?i:FICHEIRO)"=\""	{ BEGIN FOTO1; }
+<FOTO1>"\""	 						{ BEGIN INITIAL; } 
+<FOTO1>[^\"]+						{ foto = strdup(yytext); 
 									  nodo = novoNodo(da, foto, quem, facto);
-									  sortedInsert(&dados, nodo); }
+									  sortedInsert(&dados, nodo);
+}
 
 .|\n								{ ; }
 %%
@@ -85,7 +99,7 @@ int main()
 	html = fopen("new.html","w");
 	newHeader("Museu da Pessoa", html);
 	yylex(); 
-	printList(dados);
+	insertImg(dados, html);
 	endHtml(html);
 	fclose(html);
 	return 0; 
