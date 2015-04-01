@@ -9,8 +9,10 @@ char * foto;
 char * facto;
 char * quem;
 char * quando;
+char ** pessoas;
+int k = 0;
 struct data da;
-struct listaLigada * dados = NULL ;
+struct listaLigada * dados;
 struct listaLigada * nodo;
 
 int digito(char d){
@@ -67,7 +69,7 @@ char * trim(char * q){
 %%
 "<"(?i:QUEM)">" 					{ BEGIN QUEM1; }
 <QUEM1>"<"	 						{ BEGIN INITIAL; } 
-<QUEM1>[^<]+						{ quem = strdup(yytext); quem = trim(quem); }
+<QUEM1>[^<]+						{ quem = strdup(yytext); quem = trim(quem); k++; }
 
 "<"(?i:FACTO)">"					{ BEGIN FACTO1; }
 <FACTO1>"<"	 						{ BEGIN INITIAL; } 

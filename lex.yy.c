@@ -518,8 +518,10 @@ char * foto;
 char * facto;
 char * quem;
 char * quando;
+char ** pessoas;
+int k = 0;
 struct data da;
-struct listaLigada * dados = NULL ;
+struct listaLigada * dados;
 struct listaLigada * nodo;
 
 int digito(char d){
@@ -569,7 +571,11 @@ char * trim(char * q){
 
 
 
+<<<<<<< Updated upstream
 #line 573 "lex.yy.c"
+=======
+#line 567 "lex.yy.c"
+>>>>>>> Stashed changes
 
 #define INITIAL 0
 #define QUEM1 1
@@ -760,9 +766,13 @@ YY_DECL
 	register char *yy_cp, *yy_bp;
 	register int yy_act;
     
-#line 67 "parser.l"
+#line 69 "parser.l"
 
+<<<<<<< Updated upstream
 #line 766 "lex.yy.c"
+=======
+#line 755 "lex.yy.c"
+>>>>>>> Stashed changes
 
 	if ( !(yy_init) )
 		{
@@ -847,87 +857,91 @@ do_action:	/* This label is used only to access EOF actions. */
 
 case 1:
 YY_RULE_SETUP
-#line 68 "parser.l"
+#line 70 "parser.l"
 { BEGIN QUEM1; }
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
-#line 69 "parser.l"
+#line 71 "parser.l"
 { BEGIN INITIAL; } 
 	YY_BREAK
 case 3:
 /* rule 3 can match eol */
 YY_RULE_SETUP
-#line 70 "parser.l"
-{ quem = strdup(yytext); quem = trim(quem); }
+#line 72 "parser.l"
+{ quem = strdup(yytext); quem = trim(quem); k++; }
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
-#line 72 "parser.l"
+#line 74 "parser.l"
 { BEGIN FACTO1; }
 	YY_BREAK
 case 5:
 YY_RULE_SETUP
-#line 73 "parser.l"
+#line 75 "parser.l"
 { BEGIN INITIAL; } 
 	YY_BREAK
 case 6:
 /* rule 6 can match eol */
 YY_RULE_SETUP
-#line 74 "parser.l"
+#line 76 "parser.l"
 { facto = strdup(yytext); }
 	YY_BREAK
 case 7:
 YY_RULE_SETUP
-#line 76 "parser.l"
+#line 78 "parser.l"
 { BEGIN QUANDO1; }
 	YY_BREAK
 case 8:
 YY_RULE_SETUP
-#line 77 "parser.l"
+#line 79 "parser.l"
 { BEGIN INITIAL; } 
 	YY_BREAK
 case 9:
 /* rule 9 can match eol */
 YY_RULE_SETUP
-#line 78 "parser.l"
+#line 80 "parser.l"
 { quando = strdup(yytext); 
 									  da = breakFoto(quando); }
 	YY_BREAK
 case 10:
 YY_RULE_SETUP
-#line 81 "parser.l"
+#line 83 "parser.l"
 { BEGIN FOTO1; }
 	YY_BREAK
 case 11:
 YY_RULE_SETUP
-#line 82 "parser.l"
+#line 84 "parser.l"
 { BEGIN INITIAL; } 
 	YY_BREAK
 case 12:
 /* rule 12 can match eol */
 YY_RULE_SETUP
-#line 83 "parser.l"
+#line 85 "parser.l"
 { foto = strdup(yytext); }
 	YY_BREAK
 case 13:
 YY_RULE_SETUP
-#line 85 "parser.l"
+#line 87 "parser.l"
 {	nodo = novoNodo(da, foto, quem, facto);
 									  	sortedInsert(&dados, nodo); }						
 	YY_BREAK
 case 14:
 /* rule 14 can match eol */
 YY_RULE_SETUP
-#line 89 "parser.l"
+#line 91 "parser.l"
 { ; }
 	YY_BREAK
 case 15:
 YY_RULE_SETUP
-#line 90 "parser.l"
+#line 92 "parser.l"
 ECHO;
 	YY_BREAK
+<<<<<<< Updated upstream
 #line 931 "lex.yy.c"
+=======
+#line 920 "lex.yy.c"
+>>>>>>> Stashed changes
 case YY_STATE_EOF(INITIAL):
 case YY_STATE_EOF(QUEM1):
 case YY_STATE_EOF(FACTO1):
@@ -1929,7 +1943,7 @@ void yyfree (void * ptr )
 
 #define YYTABLES_NAME "yytables"
 
-#line 90 "parser.l"
+#line 92 "parser.l"
 
 
 
