@@ -894,7 +894,6 @@ case 12:
 YY_RULE_SETUP
 #line 83 "parser.l"
 { foto = strdup(yytext); 
-									  printf("%d %d %d\n", da.ano,da.mes,da.dia);
 									  nodo = novoNodo(da, foto, quem, facto);
 									  sortedInsert(&dados, nodo);
 }
@@ -902,15 +901,15 @@ YY_RULE_SETUP
 case 13:
 /* rule 13 can match eol */
 YY_RULE_SETUP
-#line 89 "parser.l"
+#line 88 "parser.l"
 { ; }
 	YY_BREAK
 case 14:
 YY_RULE_SETUP
-#line 90 "parser.l"
+#line 89 "parser.l"
 ECHO;
 	YY_BREAK
-#line 914 "lex.yy.c"
+#line 913 "lex.yy.c"
 case YY_STATE_EOF(INITIAL):
 case YY_STATE_EOF(QUEM1):
 case YY_STATE_EOF(FACTO1):
@@ -1911,7 +1910,7 @@ void yyfree (void * ptr )
 
 #define YYTABLES_NAME "yytables"
 
-#line 90 "parser.l"
+#line 89 "parser.l"
 
 
 
